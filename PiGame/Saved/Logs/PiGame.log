@@ -1903,3 +1903,162 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.27-12.54.26:481][697]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
 [2021.10.27-12.54.26:843][711]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
 [2021.10.27-12.54.26:843][711]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.55.05:870][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.10.27-12.55.06:054][653]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner33A5D44C4F1A5B9DF3ED28AFD8370C6B.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-12.55.06:094][653]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-12.55.06:094][653]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-12.55.12:215][ 16]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Models/final_rat_t_pose.final_rat_t_pose
+[2021.10.27-12.55.12:436][ 16]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2021.10.27-12.55.12:518][ 16]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2021.10.27-12.55.12:814][ 16]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2021.10.27-12.55.13:323][ 16]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.27-12.55.13:422][ 16]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2021.10.27-12.55.15:765][ 17]LogRenderer: Reallocating scene render targets to support 1208x884 Format 10 NumSamples 1 (Frame:1).
+[2021.10.27-12.56.07:248][ 76]Cmd: TRANSACTION UNDO
+[2021.10.27-12.56.07:248][ 76]LogEditorTransaction: Undo Translate Bone
+[2021.10.27-12.56.07:374][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.27-12.56.24:730][ 88]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Models/final_rat_t_pose_Skeleton.final_rat_t_pose_Skeleton
+[2021.10.27-12.56.24:760][ 88]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.27-12.56.43:882][190]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.56.43:882][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.56.45:326][256]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.56.45:326][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.57.48:309][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-12.57.48:377][973]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatController386F5D4D4615358BE1B0708264366570.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-12.57.48:395][973]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-12.57.48:395][973]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-12.57.49:227][ 23]BlueprintLog: New page: Compile RatController
+[2021.10.27-12.57.49:365][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2021.10.27-12.57.54:675][327]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2021.10.27-12.57.54:851][327]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_RunnerC7DFFD9C43FAC264FB133BA4CA7424C1.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-12.57.54:891][327]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-12.57.54:891][327]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-12.58.03:474][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-12.58.03:547][835]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatControllerFB700A164A8F260BFBCE97AF8F15D3F7.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-12.58.03:565][835]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-12.58.03:565][835]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-12.58.03:961][859]BlueprintLog: New page: Compile RatController
+[2021.10.27-12.58.04:006][859]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.10.27-12.58.05:978][972]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-12.58.05:994][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-12.58.05:995][972]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 14:58:05)
+[2021.10.27-12.58.05:995][972]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.58.05:998][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003262s)
+[2021.10.27-12.58.05:999][972]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-12.58.06:000][972]LogPlayLevel: PIE: World Init took: (0.001527s)
+[2021.10.27-12.58.06:000][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004970s)
+[2021.10.27-12.58.06:025][972]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.10.27-12.58.06:026][972]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2021.10.27-12.58.06:026][972]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-12.58.06:026][972]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-12.58.06:026][972]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-12.58.06:026][972]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-12.58.06:026][972]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-12.58.06:026][972]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-12.58.06:026][972]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-12.58.06:026][972]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-12.58.06:026][972]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-12.58.06:026][972]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-12.58.06:026][972]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-12.58.06:026][972]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-12.58.06:061][972]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-12.58.06:061][972]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-12.58.06:153][972]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-12.58.06:153][972]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-12.58.06:153][972]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-12.58.06:153][972]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-12.58.06:154][972]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-12.58.06:154][972]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-12.58.06:154][972]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-12.58.06:155][972]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-12.58.06:155][972]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-12.58.06:155][972]LogInit: FAudioDevice initialized.
+[2021.10.27-12.58.06:155][972]LogAudio: Display: Audio Device (ID: 13) registered with world 'Endless_Runner'.
+[2021.10.27-12.58.06:170][972]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-12.58.06:171][972]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-13.58.06
+[2021.10.27-12.58.06:172][972]LogWorld: Bringing up level for play took: 0.001066
+[2021.10.27-12.58.06:172][972]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.10.27-12.58.06:174][972]PIE: Server logged in
+[2021.10.27-12.58.06:175][972]PIE: Play in editor total start time 0.181 seconds.
+[2021.10.27-12.58.18:609][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.58.18:609][714]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.58.18:609][714]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.58.18:609][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.58.18:619][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-12.58.18:623][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.58.18:646][714]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-12.58.18:646][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.58.18:647][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.58.18:651][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.58.18:655][714]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.10.27-12.58.18:686][715]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.10.27-12.59.15:276][838]BlueprintLog: New page: Compile RatController
+[2021.10.27-12.59.15:343][838]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.10.27-12.59.15:774][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-12.59.15:843][857]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatControllerA1280DC9432F1B1F48BC9CA15EABD00F.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-12.59.15:862][857]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-12.59.15:862][857]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-12.59.31:019][333]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.10.27-12.59.31:033][333]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.10.27-12.59.31:047][333]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.10.27-12.59.34:385][534]LogContentBrowser: Attempting asset rename: NewBlueprint -> CameraController
+[2021.10.27-12.59.34:389][534]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.10.27-12.59.35:863][621]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CameraController.CameraController
+[2021.10.27-13.00.00:145][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset" SILENT=true
+[2021.10.27-13.00.00:178][ 14]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/CameraControllerDB6F6D8E448A0BD35A72A7B51E5E43B1.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset'
+[2021.10.27-13.00.00:194][ 14]AssetCheck: New page: Asset Save: CameraController
+[2021.10.27-13.00.00:194][ 14]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraController.CameraController
+[2021.10.27-13.01.01:460][683]BlueprintLog: New page: Compile CameraController
+[2021.10.27-13.01.01:528][683]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2021.10.27-13.01.01:979][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset" SILENT=true
+[2021.10.27-13.01.02:011][705]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/CameraControllerF6EB661A4B28831AEBF2F69E94B623A8.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset'
+[2021.10.27-13.01.02:028][705]AssetCheck: New page: Asset Save: CameraController
+[2021.10.27-13.01.02:028][705]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraController.CameraController
+[2021.10.27-13.01.21:727][874]BlueprintLog: New page: Compile CameraController
+[2021.10.27-13.01.21:772][874]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.10.27-13.01.22:228][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset" SILENT=true
+[2021.10.27-13.01.22:304][896]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/CameraController0BBA534E4665C197853AD0A34FB18DEC.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset'
+[2021.10.27-13.01.22:324][896]AssetCheck: New page: Asset Save: CameraController
+[2021.10.27-13.01.22:324][896]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraController.CameraController
+[2021.10.27-13.04.06:407][590]BlueprintLog: New page: Compile CameraController
+[2021.10.27-13.04.06:432][590]LogClass: Warning: Type mismatch in target of CameraController_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2021.10.27-13.04.06:494][590]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2021.10.27-13.04.06:843][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset" SILENT=true
+[2021.10.27-13.04.06:904][608]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/CameraControllerDAA5BF684C9E682D183013A5D2B30249.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset'
+[2021.10.27-13.04.06:921][608]AssetCheck: New page: Asset Save: CameraController
+[2021.10.27-13.04.06:921][608]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraController.CameraController
+[2021.10.27-13.04.08:809][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset" SILENT=true
+[2021.10.27-13.04.08:863][719]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/CameraController512656AC4FD03574F8EDF58050A6256D.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset'
+[2021.10.27-13.04.08:880][719]AssetCheck: New page: Asset Save: CameraController
+[2021.10.27-13.04.08:881][719]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraController.CameraController
+[2021.10.27-13.04.09:337][747]BlueprintLog: New page: Compile CameraController
+[2021.10.27-13.04.09:385][747]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.10.27-13.04.39:090][341]BlueprintLog: New page: Compile CameraController
+[2021.10.27-13.04.39:138][341]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2021.10.27-13.04.39:525][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset" SILENT=true
+[2021.10.27-13.04.39:578][362]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/CameraController6B208E864EA0847B21B98CA3FC95CE76.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset'
+[2021.10.27-13.04.39:596][362]AssetCheck: New page: Asset Save: CameraController
+[2021.10.27-13.04.39:596][362]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraController.CameraController
+[2021.10.27-13.06.26:188][633]BlueprintLog: New page: Compile CameraController
+[2021.10.27-13.06.26:240][633]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2021.10.27-13.06.26:557][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset" SILENT=true
+[2021.10.27-13.06.26:626][649]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/CameraController4B92A802415A9902C04104BFEC2249A4.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset'
+[2021.10.27-13.06.26:646][649]AssetCheck: New page: Asset Save: CameraController
+[2021.10.27-13.06.26:646][649]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraController.CameraController
+[2021.10.27-13.06.53:587][241]BlueprintLog: New page: Compile CameraController
+[2021.10.27-13.06.53:635][241]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2021.10.27-13.06.54:056][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset" SILENT=true
+[2021.10.27-13.06.54:124][264]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/CameraController8C708A4942F5D9BBD77B9B8C29B721F5.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset'
+[2021.10.27-13.06.54:144][264]AssetCheck: New page: Asset Save: CameraController
+[2021.10.27-13.06.54:144][264]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraController.CameraController
+[2021.10.27-13.06.57:222][449]Cmd: DELETE
+[2021.10.27-13.06.57:222][449]Cmd: ACTOR DELETE
+[2021.10.27-13.06.57:224][449]LogEditorActor: Deleted Actor: CameraActor
+[2021.10.27-13.06.57:268][449]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2021.10.27-13.06.57:269][449]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2021.10.27-13.07.30:605][407]BlueprintLog: New page: Compile CameraController
+[2021.10.27-13.07.30:677][407]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.10.27-13.07.31:073][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset" SILENT=true
+[2021.10.27-13.07.31:144][424]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/CameraController783F3C494D79074FBDCC2081BF330EDD.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset'
+[2021.10.27-13.07.31:163][424]AssetCheck: New page: Asset Save: CameraController
+[2021.10.27-13.07.31:163][424]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraController.CameraController
