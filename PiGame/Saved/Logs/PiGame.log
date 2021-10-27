@@ -1037,3 +1037,823 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.27-12.40.01:664][694]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner98ECC2B8448D5B0449403CB577C76BBA.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
 [2021.10.27-12.40.01:702][694]AssetCheck: New page: Asset Save: Endless_Runner
 [2021.10.27-12.40.01:702][694]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-12.40.37:159][133]BlueprintLog: New page: Compile RatController
+[2021.10.27-12.40.37:204][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.10.27-12.40.37:705][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-12.40.37:800][155]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatController6DDF66454E8F6EE83AE13599E58A2D0F.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-12.40.37:816][155]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-12.40.37:816][155]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-12.40.40:016][285]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.10.27-12.40.40:201][285]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_RunnerE4E805B440AB131441AB78B876AEE58A.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-12.40.40:240][285]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-12.40.40:240][285]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-12.40.41:146][340]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-12.40.41:163][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-12.40.41:163][340]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 14:40:41)
+[2021.10.27-12.40.41:163][340]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.40.41:166][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002931s)
+[2021.10.27-12.40.41:167][340]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-12.40.41:168][340]LogPlayLevel: PIE: World Init took: (0.001631s)
+[2021.10.27-12.40.41:168][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004695s)
+[2021.10.27-12.40.41:188][340]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.10.27-12.40.41:189][340]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.10.27-12.40.41:189][340]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-12.40.41:189][340]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-12.40.41:189][340]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-12.40.41:189][340]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-12.40.41:189][340]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-12.40.41:189][340]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-12.40.41:189][340]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-12.40.41:189][340]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-12.40.41:190][340]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-12.40.41:190][340]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-12.40.41:190][340]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-12.40.41:190][340]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-12.40.41:230][340]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-12.40.41:230][340]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-12.40.41:333][340]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-12.40.41:333][340]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-12.40.41:333][340]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-12.40.41:334][340]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-12.40.41:334][340]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-12.40.41:334][340]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-12.40.41:334][340]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-12.40.41:335][340]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-12.40.41:335][340]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-12.40.41:335][340]LogInit: FAudioDevice initialized.
+[2021.10.27-12.40.41:335][340]LogAudio: Display: Audio Device (ID: 3) registered with world 'Endless_Runner'.
+[2021.10.27-12.40.41:345][340]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-12.40.41:347][340]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-13.40.41
+[2021.10.27-12.40.41:347][340]LogWorld: Bringing up level for play took: 0.001073
+[2021.10.27-12.40.41:348][340]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.10.27-12.40.41:367][340]PIE: Server logged in
+[2021.10.27-12.40.41:368][340]PIE: Play in editor total start time 0.208 seconds.
+[2021.10.27-12.40.51:333][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.40.51:333][923]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.40.51:349][923]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.40.51:349][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.40.51:382][923]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-12.40.51:391][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.40.51:409][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.40.51:409][923]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.40.51:411][923]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.40.51:417][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.10.27-12.40.51:459][924]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.10.27-12.42.55:059][275]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-12.42.55:076][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-12.42.55:076][275]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 14:42:55)
+[2021.10.27-12.42.55:076][275]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.42.55:079][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003194s)
+[2021.10.27-12.42.55:080][275]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-12.42.55:080][275]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2021.10.27-12.42.55:080][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004471s)
+[2021.10.27-12.42.55:101][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.10.27-12.42.55:103][275]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.10.27-12.42.55:103][275]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-12.42.55:103][275]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-12.42.55:103][275]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-12.42.55:103][275]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-12.42.55:103][275]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-12.42.55:103][275]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-12.42.55:103][275]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-12.42.55:103][275]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-12.42.55:103][275]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-12.42.55:103][275]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-12.42.55:103][275]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-12.42.55:103][275]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-12.42.55:106][275]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-12.42.55:106][275]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-12.42.55:204][275]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-12.42.55:204][275]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-12.42.55:204][275]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-12.42.55:204][275]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-12.42.55:205][275]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-12.42.55:205][275]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-12.42.55:205][275]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-12.42.55:206][275]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-12.42.55:206][275]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-12.42.55:206][275]LogInit: FAudioDevice initialized.
+[2021.10.27-12.42.55:206][275]LogAudio: Display: Audio Device (ID: 4) registered with world 'Endless_Runner'.
+[2021.10.27-12.42.55:214][275]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-12.42.55:216][275]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-13.42.55
+[2021.10.27-12.42.55:216][275]LogWorld: Bringing up level for play took: 0.000955
+[2021.10.27-12.42.55:217][275]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.10.27-12.42.55:219][275]PIE: Server logged in
+[2021.10.27-12.42.55:220][275]PIE: Play in editor total start time 0.146 seconds.
+[2021.10.27-12.43.04:479][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.43.04:479][825]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.43.04:479][825]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.43.04:480][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.43.04:494][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-12.43.04:502][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.43.04:519][825]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-12.43.04:520][825]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.43.04:521][825]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.43.04:524][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.43.04:528][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.10.27-12.43.04:569][826]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.10.27-12.43.20:104][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-12.43.20:170][733]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatControllerD428245E4C1E36072BF37EBD1F2033A8.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-12.43.20:191][733]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-12.43.20:191][733]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-12.43.20:522][753]BlueprintLog: New page: Compile RatController
+[2021.10.27-12.43.20:566][753]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.10.27-12.43.45:841][240]BlueprintLog: New page: Compile RatController
+[2021.10.27-12.43.45:885][240]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.10.27-12.43.46:337][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-12.43.46:405][264]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatControllerB94557254A867581F882B28F8518A1AC.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-12.43.46:420][264]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-12.43.46:420][264]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-12.43.50:491][506]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-12.43.50:507][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-12.43.50:508][506]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 14:43:50)
+[2021.10.27-12.43.50:539][506]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.43.50:542][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002947s)
+[2021.10.27-12.43.50:543][506]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-12.43.50:543][506]LogPlayLevel: PIE: World Init took: (0.001208s)
+[2021.10.27-12.43.50:543][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004316s)
+[2021.10.27-12.43.50:564][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.10.27-12.43.50:564][506]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.10.27-12.43.50:564][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-12.43.50:564][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-12.43.50:564][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-12.43.50:565][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-12.43.50:565][506]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-12.43.50:565][506]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-12.43.50:565][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-12.43.50:565][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-12.43.50:565][506]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-12.43.50:565][506]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-12.43.50:565][506]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-12.43.50:565][506]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-12.43.50:568][506]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-12.43.50:568][506]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-12.43.50:655][506]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-12.43.50:655][506]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-12.43.50:655][506]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-12.43.50:655][506]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-12.43.50:656][506]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-12.43.50:656][506]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-12.43.50:656][506]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-12.43.50:657][506]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-12.43.50:657][506]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-12.43.50:657][506]LogInit: FAudioDevice initialized.
+[2021.10.27-12.43.50:657][506]LogAudio: Display: Audio Device (ID: 5) registered with world 'Endless_Runner'.
+[2021.10.27-12.43.50:670][506]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-12.43.50:672][506]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-13.43.50
+[2021.10.27-12.43.50:672][506]LogWorld: Bringing up level for play took: 0.000722
+[2021.10.27-12.43.50:672][506]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.10.27-12.43.50:674][506]PIE: Server logged in
+[2021.10.27-12.43.50:675][506]PIE: Play in editor total start time 0.169 seconds.
+[2021.10.27-12.44.03:220][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.44.03:220][254]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.44.03:221][254]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.44.03:221][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.44.03:235][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-12.44.03:242][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.44.03:261][254]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-12.44.03:261][254]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.44.03:262][254]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.44.03:265][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.44.03:269][254]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.10.27-12.44.03:314][255]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.10.27-12.44.15:112][960]Cmd: DELETE
+[2021.10.27-12.44.15:112][960]Cmd: ACTOR DELETE
+[2021.10.27-12.44.15:114][960]LogEditorActor: Deleted Actor: Actor
+[2021.10.27-12.44.15:137][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.10.27-12.44.15:138][960]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2021.10.27-12.44.18:361][153]Cmd: DELETE
+[2021.10.27-12.44.18:361][153]Cmd: ACTOR DELETE
+[2021.10.27-12.44.18:380][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.10.27-12.44.18:381][153]LogEditorActor: Deleted 0 Actors (0.020 secs)
+[2021.10.27-12.44.19:571][222]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-12.44.19:588][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-12.44.19:588][222]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 14:44:19)
+[2021.10.27-12.44.19:588][222]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.44.19:591][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003264s)
+[2021.10.27-12.44.19:592][222]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-12.44.19:593][222]LogPlayLevel: PIE: World Init took: (0.001572s)
+[2021.10.27-12.44.19:593][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004984s)
+[2021.10.27-12.44.19:615][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.10.27-12.44.19:615][222]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.10.27-12.44.19:615][222]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-12.44.19:615][222]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-12.44.19:615][222]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-12.44.19:615][222]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-12.44.19:615][222]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-12.44.19:615][222]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-12.44.19:615][222]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-12.44.19:615][222]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-12.44.19:616][222]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-12.44.19:616][222]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-12.44.19:616][222]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-12.44.19:616][222]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-12.44.19:620][222]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-12.44.19:620][222]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-12.44.19:705][222]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-12.44.19:706][222]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-12.44.19:706][222]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-12.44.19:706][222]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-12.44.19:706][222]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-12.44.19:706][222]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-12.44.19:706][222]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-12.44.19:707][222]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-12.44.19:707][222]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-12.44.19:707][222]LogInit: FAudioDevice initialized.
+[2021.10.27-12.44.19:707][222]LogAudio: Display: Audio Device (ID: 6) registered with world 'Endless_Runner'.
+[2021.10.27-12.44.19:721][222]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-12.44.19:723][222]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-13.44.19
+[2021.10.27-12.44.19:723][222]LogWorld: Bringing up level for play took: 0.001060
+[2021.10.27-12.44.19:723][222]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.10.27-12.44.19:726][222]PIE: Server logged in
+[2021.10.27-12.44.19:726][222]PIE: Play in editor total start time 0.139 seconds.
+[2021.10.27-12.44.31:840][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.44.31:840][944]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.44.31:840][944]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.44.31:840][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.44.31:850][944]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-12.44.31:853][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.44.31:871][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.44.31:872][944]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.44.31:873][944]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.44.31:879][944]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.10.27-12.44.31:908][945]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.10.27-12.44.34:627][104]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.10.27-12.46.04:490][315]EditorErrors: New page: Actor attachment
+[2021.10.27-12.46.06:155][411]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-12.46.06:173][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-12.46.06:173][411]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 14:46:06)
+[2021.10.27-12.46.06:209][411]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.46.06:212][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003209s)
+[2021.10.27-12.46.06:214][411]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-12.46.06:214][411]LogPlayLevel: PIE: World Init took: (0.001634s)
+[2021.10.27-12.46.06:214][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.005023s)
+[2021.10.27-12.46.06:235][411]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.10.27-12.46.06:236][411]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.10.27-12.46.06:236][411]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-12.46.06:236][411]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-12.46.06:236][411]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-12.46.06:236][411]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-12.46.06:236][411]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-12.46.06:236][411]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-12.46.06:236][411]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-12.46.06:236][411]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-12.46.06:237][411]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-12.46.06:237][411]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-12.46.06:237][411]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-12.46.06:237][411]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-12.46.06:256][411]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-12.46.06:256][411]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-12.46.06:342][411]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-12.46.06:343][411]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-12.46.06:343][411]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-12.46.06:343][411]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-12.46.06:343][411]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-12.46.06:343][411]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-12.46.06:343][411]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-12.46.06:345][411]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-12.46.06:345][411]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-12.46.06:345][411]LogInit: FAudioDevice initialized.
+[2021.10.27-12.46.06:345][411]LogAudio: Display: Audio Device (ID: 7) registered with world 'Endless_Runner'.
+[2021.10.27-12.46.06:356][411]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-12.46.06:358][411]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-13.46.06
+[2021.10.27-12.46.06:358][411]LogWorld: Bringing up level for play took: 0.000829
+[2021.10.27-12.46.06:358][411]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.10.27-12.46.06:360][411]PIE: Server logged in
+[2021.10.27-12.46.06:361][411]PIE: Play in editor total start time 0.189 seconds.
+[2021.10.27-12.46.10:010][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.46.10:010][619]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.46.10:010][619]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.46.10:010][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.46.10:021][619]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-12.46.10:073][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.46.10:093][619]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-12.46.10:093][619]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.46.10:094][619]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.46.10:098][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.46.10:101][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.10.27-12.46.10:179][620]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.10.27-12.47.02:977][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.10.27-12.47.03:158][723]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner0A1CA11F452C068EF612899B569CDAFB.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-12.47.03:204][723]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-12.47.03:204][723]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-12.47.05:692][870]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-12.47.05:707][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-12.47.05:707][870]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 14:47:05)
+[2021.10.27-12.47.05:707][870]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.47.05:710][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003160s)
+[2021.10.27-12.47.05:712][870]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-12.47.05:713][870]LogPlayLevel: PIE: World Init took: (0.001940s)
+[2021.10.27-12.47.05:713][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.005375s)
+[2021.10.27-12.47.05:734][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.10.27-12.47.05:734][870]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.10.27-12.47.05:734][870]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-12.47.05:734][870]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-12.47.05:734][870]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-12.47.05:734][870]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-12.47.05:734][870]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-12.47.05:734][870]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-12.47.05:734][870]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-12.47.05:734][870]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-12.47.05:735][870]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-12.47.05:735][870]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-12.47.05:735][870]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-12.47.05:735][870]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-12.47.05:739][870]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-12.47.05:739][870]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-12.47.05:828][870]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-12.47.05:828][870]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-12.47.05:828][870]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-12.47.05:828][870]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-12.47.05:829][870]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-12.47.05:829][870]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-12.47.05:829][870]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-12.47.05:830][870]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-12.47.05:830][870]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-12.47.05:830][870]LogInit: FAudioDevice initialized.
+[2021.10.27-12.47.05:830][870]LogAudio: Display: Audio Device (ID: 8) registered with world 'Endless_Runner'.
+[2021.10.27-12.47.05:839][870]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-12.47.05:841][870]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-13.47.05
+[2021.10.27-12.47.05:841][870]LogWorld: Bringing up level for play took: 0.000748
+[2021.10.27-12.47.05:841][870]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.10.27-12.47.05:881][870]PIE: Server logged in
+[2021.10.27-12.47.05:882][870]PIE: Play in editor total start time 0.176 seconds.
+[2021.10.27-12.47.16:269][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.47.16:269][473]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.47.16:270][473]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.47.16:270][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.47.16:281][473]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-12.47.16:290][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.47.16:309][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.47.16:309][473]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.47.16:310][473]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.47.16:317][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.10.27-12.47.16:362][474]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.10.27-12.48.27:738][678]BlueprintLog: New page: Compile RatController
+[2021.10.27-12.48.27:793][678]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.10.27-12.48.28:182][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-12.48.28:258][698]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatController7905AC2747E1B336AD59639F22BF6C91.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-12.48.28:275][698]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-12.48.28:275][698]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-12.48.34:126][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.10.27-12.48.34:309][ 25]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner9915CD7A4DEB3906AAA6B997EB81CB1A.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-12.48.34:350][ 25]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-12.48.34:350][ 25]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-12.48.35:002][ 64]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-12.48.35:018][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-12.48.35:018][ 64]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 14:48:35)
+[2021.10.27-12.48.35:048][ 64]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.48.35:051][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003019s)
+[2021.10.27-12.48.35:052][ 64]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-12.48.35:052][ 64]LogPlayLevel: PIE: World Init took: (0.001119s)
+[2021.10.27-12.48.35:052][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004294s)
+[2021.10.27-12.48.35:073][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.10.27-12.48.35:074][ 64]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.10.27-12.48.35:074][ 64]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-12.48.35:074][ 64]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-12.48.35:074][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-12.48.35:074][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-12.48.35:074][ 64]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-12.48.35:074][ 64]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-12.48.35:074][ 64]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-12.48.35:074][ 64]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-12.48.35:074][ 64]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-12.48.35:074][ 64]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-12.48.35:074][ 64]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-12.48.35:074][ 64]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-12.48.35:078][ 64]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-12.48.35:078][ 64]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-12.48.35:172][ 64]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-12.48.35:172][ 64]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-12.48.35:172][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-12.48.35:172][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-12.48.35:173][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-12.48.35:173][ 64]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-12.48.35:173][ 64]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-12.48.35:174][ 64]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-12.48.35:174][ 64]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-12.48.35:174][ 64]LogInit: FAudioDevice initialized.
+[2021.10.27-12.48.35:174][ 64]LogAudio: Display: Audio Device (ID: 9) registered with world 'Endless_Runner'.
+[2021.10.27-12.48.35:184][ 64]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-12.48.35:186][ 64]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-13.48.35
+[2021.10.27-12.48.35:186][ 64]LogWorld: Bringing up level for play took: 0.000915
+[2021.10.27-12.48.35:186][ 64]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.10.27-12.48.35:189][ 64]PIE: Server logged in
+[2021.10.27-12.48.35:189][ 64]PIE: Play in editor total start time 0.173 seconds.
+[2021.10.27-12.48.56:659][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.48.56:659][345]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.48.56:659][345]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.48.56:660][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.48.56:671][345]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-12.48.56:679][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.48.56:697][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.48.56:697][345]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.48.56:699][345]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.48.56:705][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.10.27-12.48.56:748][346]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.10.27-12.49.15:970][475]Cmd: DELETE
+[2021.10.27-12.49.15:970][475]Cmd: ACTOR DELETE
+[2021.10.27-12.49.15:971][475]LogEditorActor: Deleted Actor: PlayerStart
+[2021.10.27-12.49.15:992][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.10.27-12.49.15:994][475]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2021.10.27-12.49.17:874][586]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.10.27-12.49.18:047][586]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner01866E4F4C05DAD059763F952F3DB396.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-12.49.18:084][586]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-12.49.18:084][586]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-12.49.19:968][698]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-12.49.19:984][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-12.49.19:984][698]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 14:49:19)
+[2021.10.27-12.49.19:984][698]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.49.19:987][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002851s)
+[2021.10.27-12.49.19:988][698]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-12.49.19:989][698]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2021.10.27-12.49.19:989][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004283s)
+[2021.10.27-12.49.20:009][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.10.27-12.49.20:009][698]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.10.27-12.49.20:009][698]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-12.49.20:009][698]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-12.49.20:009][698]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-12.49.20:009][698]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-12.49.20:009][698]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-12.49.20:009][698]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-12.49.20:009][698]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-12.49.20:009][698]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-12.49.20:010][698]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-12.49.20:010][698]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-12.49.20:010][698]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-12.49.20:010][698]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-12.49.20:013][698]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-12.49.20:013][698]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-12.49.20:120][698]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-12.49.20:120][698]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-12.49.20:121][698]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-12.49.20:121][698]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-12.49.20:121][698]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-12.49.20:121][698]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-12.49.20:121][698]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-12.49.20:122][698]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-12.49.20:122][698]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-12.49.20:122][698]LogInit: FAudioDevice initialized.
+[2021.10.27-12.49.20:122][698]LogAudio: Display: Audio Device (ID: 10) registered with world 'Endless_Runner'.
+[2021.10.27-12.49.20:132][698]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-12.49.20:134][698]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-13.49.20
+[2021.10.27-12.49.20:134][698]LogWorld: Bringing up level for play took: 0.000772
+[2021.10.27-12.49.20:134][698]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.10.27-12.49.20:137][698]PIE: Server logged in
+[2021.10.27-12.49.20:138][698]PIE: Play in editor total start time 0.154 seconds.
+[2021.10.27-12.49.41:140][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.49.41:140][916]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.49.41:140][916]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.49.41:140][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.49.41:148][916]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-12.49.41:151][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.49.41:170][916]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-12.49.41:170][916]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.49.41:171][916]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.49.41:174][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.49.41:178][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.10.27-12.49.41:206][917]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.10.27-12.50.01:271][146]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-12.50.01:287][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-12.50.01:287][146]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 14:50:01)
+[2021.10.27-12.50.01:287][146]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.50.01:290][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003175s)
+[2021.10.27-12.50.01:292][146]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-12.50.01:292][146]LogPlayLevel: PIE: World Init took: (0.001762s)
+[2021.10.27-12.50.01:292][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.005095s)
+[2021.10.27-12.50.01:311][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.10.27-12.50.01:312][146]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2021.10.27-12.50.01:312][146]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-12.50.01:312][146]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-12.50.01:312][146]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-12.50.01:312][146]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-12.50.01:312][146]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-12.50.01:312][146]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-12.50.01:312][146]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-12.50.01:312][146]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-12.50.01:313][146]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-12.50.01:313][146]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-12.50.01:313][146]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-12.50.01:313][146]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-12.50.01:372][146]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-12.50.01:372][146]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-12.50.01:456][146]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-12.50.01:457][146]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-12.50.01:457][146]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-12.50.01:457][146]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-12.50.01:457][146]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-12.50.01:457][146]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-12.50.01:457][146]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-12.50.01:459][146]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-12.50.01:459][146]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-12.50.01:459][146]LogInit: FAudioDevice initialized.
+[2021.10.27-12.50.01:459][146]LogAudio: Display: Audio Device (ID: 11) registered with world 'Endless_Runner'.
+[2021.10.27-12.50.01:470][146]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-12.50.01:472][146]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-13.50.01
+[2021.10.27-12.50.01:472][146]LogWorld: Bringing up level for play took: 0.000887
+[2021.10.27-12.50.01:472][146]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.10.27-12.50.01:475][146]PIE: Server logged in
+[2021.10.27-12.50.01:475][146]PIE: Play in editor total start time 0.189 seconds.
+[2021.10.27-12.50.28:519][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.50.28:520][442]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.50.28:520][442]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.50.28:520][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.50.28:531][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-12.50.28:535][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.50.28:555][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.50.28:555][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.50.28:557][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.50.28:564][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.10.27-12.50.28:595][443]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.10.27-12.50.40:686][145]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-12.50.40:701][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-12.50.40:701][145]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 14:50:40)
+[2021.10.27-12.50.40:701][145]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.50.40:704][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002785s)
+[2021.10.27-12.50.40:705][145]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-12.50.40:706][145]LogPlayLevel: PIE: World Init took: (0.001694s)
+[2021.10.27-12.50.40:706][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004635s)
+[2021.10.27-12.50.40:729][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.10.27-12.50.40:729][145]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.10.27-12.50.40:730][145]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-12.50.40:730][145]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-12.50.40:730][145]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-12.50.40:730][145]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-12.50.40:730][145]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-12.50.40:730][145]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-12.50.40:730][145]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-12.50.40:730][145]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-12.50.40:730][145]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-12.50.40:730][145]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-12.50.40:730][145]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-12.50.40:730][145]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-12.50.40:733][145]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-12.50.40:733][145]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-12.50.40:818][145]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-12.50.40:818][145]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-12.50.40:818][145]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-12.50.40:818][145]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-12.50.40:819][145]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-12.50.40:819][145]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-12.50.40:819][145]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-12.50.40:820][145]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-12.50.40:820][145]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-12.50.40:820][145]LogInit: FAudioDevice initialized.
+[2021.10.27-12.50.40:820][145]LogAudio: Display: Audio Device (ID: 12) registered with world 'Endless_Runner'.
+[2021.10.27-12.50.40:829][145]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-12.50.40:831][145]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-13.50.40
+[2021.10.27-12.50.40:831][145]LogWorld: Bringing up level for play took: 0.000836
+[2021.10.27-12.50.40:831][145]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.10.27-12.50.40:833][145]PIE: Server logged in
+[2021.10.27-12.50.40:834][145]PIE: Play in editor total start time 0.134 seconds.
+[2021.10.27-12.50.48:909][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.50.48:909][623]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-12.50.48:909][623]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.50.48:910][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.50.48:920][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-12.50.48:966][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.50.48:984][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-12.50.48:984][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.50.48:985][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-12.50.49:004][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.10.27-12.50.49:061][624]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.10.27-12.51.07:275][477]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.10.27-12.51.07:301][477]LogContentBrowser: Creating deferred item: NewFolder
+[2021.10.27-12.51.09:174][590]LogContentBrowser: Attempting asset rename: NewFolder -> Models
+[2021.10.27-12.51.09:184][590]LogContentBrowser: End creating deferred item NewFolder
+[2021.10.27-12.52.40:394][790]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Uni/1288 - Advanced Games Design and Development/Pi-Project-Repo/Pi Game/Assets/Models/Rat/final rat t pose.fbx)
+[2021.10.27-12.52.40:785][790]LogFbx: Loading FBX Scene from E:/Uni/1288 - Advanced Games Design and Development/Pi-Project-Repo/Pi Game/Assets/Models/Rat/final rat t pose.fbx
+[2021.10.27-12.52.40:898][790]LogFbx: FBX Scene Loaded Succesfully
+[2021.10.27-12.52.54:866][790]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.10.27-12.52.55:119][790]LogFbx: Valid bind pose for Pose (BindPose) - rat1
+[2021.10.27-12.52.55:198][790]LogMaterial: Display: Material /Game/Models/lambert2.lambert2 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.55:205][790]LogMaterial: Display: Missing cached shadermap for lambert2 in PCD3D_SM5, Default, SM5 (DDC key hash: 3B03BEA0F6B309FD12459EBAEE205AEA03BDC5B1), compiling. 
+[2021.10.27-12.52.55:487][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.55:531][790]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2021.10.27-12.52.55:532][790]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2021.10.27-12.52.55:532][790]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2021.10.27-12.52.55:532][790]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.10.27-12.52.55:532][790]LogShaderCompilers: Display: Started 32 'Local' shader compile jobs with 'Low' priority
+[2021.10.27-12.52.55:556][790]LogMaterial: Display: Missing cached shadermap for lambert2 in PCD3D_SM5, Default, SM5 (DDC key hash: E4ED9D683789D7FBA6B58AFBA5AB12DF6451E21B), compiling. 
+[2021.10.27-12.52.55:596][790]LogMaterial: Display: Material /Game/Models/lambert8.lambert8 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.55:597][790]LogMaterial: Display: Missing cached shadermap for lambert8 in PCD3D_SM5, Default, SM5 (DDC key hash: 4416B93BD7F89B0F83A6A8CCC4827C15DBDEA98F), compiling. 
+[2021.10.27-12.52.55:625][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.55:628][790]LogMaterial: Display: Missing cached shadermap for lambert8 in PCD3D_SM5, Default, SM5 (DDC key hash: 2976DEECAA97267CE9B13EE09C63D839E1E5BB0E), compiling. 
+[2021.10.27-12.52.55:631][790]LogMaterial: Display: Material /Game/Models/lambert12.lambert12 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.55:633][790]LogMaterial: Display: Missing cached shadermap for lambert12 in PCD3D_SM5, Default, SM5 (DDC key hash: 02DE16C3320655CD54303C32090FC62910A4C712), compiling. 
+[2021.10.27-12.52.55:665][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.55:668][790]LogMaterial: Display: Missing cached shadermap for lambert12 in PCD3D_SM5, Default, SM5 (DDC key hash: 448E8DBCF376421DDCDE9DD6D0EB183233A507E2), compiling. 
+[2021.10.27-12.52.55:671][790]LogMaterial: Display: Material /Game/Models/lambert10.lambert10 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.55:673][790]LogMaterial: Display: Missing cached shadermap for lambert10 in PCD3D_SM5, Default, SM5 (DDC key hash: 8668E36010D664A683B7241F55B47C3AA530D28E), compiling. 
+[2021.10.27-12.52.55:702][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.55:706][790]LogMaterial: Display: Missing cached shadermap for lambert10 in PCD3D_SM5, Default, SM5 (DDC key hash: 091CFE8D9F0FD9C3DCE7C69B6488EA92CB496242), compiling. 
+[2021.10.27-12.52.55:710][790]LogMaterial: Display: Material /Game/Models/lambert13.lambert13 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.55:712][790]LogMaterial: Display: Missing cached shadermap for lambert13 in PCD3D_SM5, Default, SM5 (DDC key hash: D71CA40DF0F3FF2268C3EF8FBB713B2C314C6CA2), compiling. 
+[2021.10.27-12.52.55:749][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.55:752][790]LogMaterial: Display: Missing cached shadermap for lambert13 in PCD3D_SM5, Default, SM5 (DDC key hash: 20FB4946F14CBDA3E369E6573E080BB3090CA96A), compiling. 
+[2021.10.27-12.52.55:754][790]LogMaterial: Display: Material /Game/Models/lambert11.lambert11 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.55:760][790]LogMaterial: Display: Missing cached shadermap for lambert11 in PCD3D_SM5, Default, SM5 (DDC key hash: DABDF36903C26009669F29861827C05319104206), compiling. 
+[2021.10.27-12.52.55:793][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.55:795][790]LogMaterial: Display: Missing cached shadermap for lambert11 in PCD3D_SM5, Default, SM5 (DDC key hash: FB85488804716F0169B2AF625535C9F34E9681BA), compiling. 
+[2021.10.27-12.52.55:798][790]LogMaterial: Display: Material /Game/Models/lambert16.lambert16 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.55:799][790]LogMaterial: Display: Missing cached shadermap for lambert16 in PCD3D_SM5, Default, SM5 (DDC key hash: 4BB90B5A6DC23883AED2264EDC236B4925A14B06), compiling. 
+[2021.10.27-12.52.55:828][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.55:831][790]LogMaterial: Display: Missing cached shadermap for lambert16 in PCD3D_SM5, Default, SM5 (DDC key hash: 30AF7FCD7DE5CE26719A2A7E8B53B66DBF539454), compiling. 
+[2021.10.27-12.52.55:833][790]LogMaterial: Display: Material /Game/Models/lambert7.lambert7 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.55:835][790]LogMaterial: Display: Missing cached shadermap for lambert7 in PCD3D_SM5, Default, SM5 (DDC key hash: A109B2E2CBE60B46F943CE8F9ED7BB928EA43424), compiling. 
+[2021.10.27-12.52.55:862][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.55:864][790]LogMaterial: Display: Missing cached shadermap for lambert7 in PCD3D_SM5, Default, SM5 (DDC key hash: 70EC91EF796D237BE6C3B1E228D6234988F2D063), compiling. 
+[2021.10.27-12.52.55:866][790]LogMaterial: Display: Material /Game/Models/lambert5.lambert5 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.55:873][790]LogMaterial: Display: Missing cached shadermap for lambert5 in PCD3D_SM5, Default, SM5 (DDC key hash: 3CA6A305019859459264FD6A1024F02A77F2EFCF), compiling. 
+[2021.10.27-12.52.55:901][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.55:903][790]LogMaterial: Display: Missing cached shadermap for lambert5 in PCD3D_SM5, Default, SM5 (DDC key hash: 6B233AE560299C65F731450DC8C9F6E3B2588A2B), compiling. 
+[2021.10.27-12.52.55:905][790]LogMaterial: Display: Material /Game/Models/lambert4.lambert4 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.55:907][790]LogMaterial: Display: Missing cached shadermap for lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 903B28C01062B65E015FB7B556274DB373ED6F51), compiling. 
+[2021.10.27-12.52.55:935][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.55:937][790]LogMaterial: Display: Missing cached shadermap for lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 2A3BED1E936F6EDC1B60F380A97B5210761A993E), compiling. 
+[2021.10.27-12.52.55:940][790]LogMaterial: Display: Material /Game/Models/lambert6.lambert6 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.55:941][790]LogMaterial: Display: Missing cached shadermap for lambert6 in PCD3D_SM5, Default, SM5 (DDC key hash: 2739EEDFCF865E60DCCAFA9237D32F4493440711), compiling. 
+[2021.10.27-12.52.55:975][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.55:977][790]LogMaterial: Display: Missing cached shadermap for lambert6 in PCD3D_SM5, Default, SM5 (DDC key hash: 7E4ACB6794002798A8645E74E09E32DE94F88A86), compiling. 
+[2021.10.27-12.52.55:979][790]LogMaterial: Display: Material /Game/Models/lambert3.lambert3 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.55:980][790]LogMaterial: Display: Missing cached shadermap for lambert3 in PCD3D_SM5, Default, SM5 (DDC key hash: 1B18B451BFED2499535BCB69AE87F4E2AAC19D4F), compiling. 
+[2021.10.27-12.52.56:009][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.56:012][790]LogMaterial: Display: Missing cached shadermap for lambert3 in PCD3D_SM5, Default, SM5 (DDC key hash: 7467FA98F66E6CA7CF9DD7D22D59CCF559FDF40A), compiling. 
+[2021.10.27-12.52.56:015][790]LogMaterial: Display: Material /Game/Models/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.56:016][790]LogMaterial: Display: Missing cached shadermap for lambert1 in PCD3D_SM5, Default, SM5 (DDC key hash: 062FDDC23CA66FE7BFA849B5CDF7A14A53508CB6), compiling. 
+[2021.10.27-12.52.56:045][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.56:048][790]LogMaterial: Display: Missing cached shadermap for lambert1 in PCD3D_SM5, Default, SM5 (DDC key hash: CFBA09988A750F353E3444E00900363EAA4ADACC), compiling. 
+[2021.10.27-12.52.56:050][790]LogMaterial: Display: Material /Game/Models/lambert15.lambert15 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.27-12.52.56:052][790]LogMaterial: Display: Missing cached shadermap for lambert15 in PCD3D_SM5, Default, SM5 (DDC key hash: E96758F02C0B965D86DE910B0D770964115E4885), compiling. 
+[2021.10.27-12.52.56:080][790]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2021.10.27-12.52.56:082][790]LogMaterial: Display: Missing cached shadermap for lambert15 in PCD3D_SM5, Default, SM5 (DDC key hash: A59CC56ECE2BF2C6D95AE3FE9AFE6B09A7FE467C), compiling. 
+[2021.10.27-12.52.56:083][790]LogFbx: Triangulating skeletal mesh rat1
+[2021.10.27-12.52.57:430][790]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2021.10.27-12.52.57:635][790]LogSkeletalMesh: Display: /Game/Models/final_rat_t_pose.final_rat_t_pose ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 0: Material=0, 1482 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 1: Material=1, 1134 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 2: Material=2, 32 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 3: Material=3, 544 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 4: Material=4, 4 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 5: Material=5, 312 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 6: Material=6, 8 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 7: Material=7, 120 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 8: Material=8, 24 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 9: Material=9, 80 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 10: Material=10, 40 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 11: Material=11, 36 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 12: Material=12, 16 triangles
+[2021.10.27-12.52.57:838][790]LogSkeletalMesh: Section 13: Material=13, 760 triangles
+[2021.10.27-12.52.57:880][790]LogSkeletalMesh: Building Skeletal Mesh final_rat_t_pose...
+[2021.10.27-12.52.57:912][790]LogSkeletalMesh: Display: /Game/Models/final_rat_t_pose.final_rat_t_pose ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 0: Material=0, 1482 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 1: Material=1, 1134 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 2: Material=2, 32 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 3: Material=3, 544 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 4: Material=4, 4 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 5: Material=5, 312 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 6: Material=6, 8 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 7: Material=7, 120 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 8: Material=8, 24 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 9: Material=9, 80 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 10: Material=10, 40 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 11: Material=11, 36 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 12: Material=12, 16 triangles
+[2021.10.27-12.52.58:040][790]LogSkeletalMesh: Section 13: Material=13, 760 triangles
+[2021.10.27-12.52.58:116][790]LogSkeletalMesh: Built Skeletal Mesh [0.24s] /Game/Models/final_rat_t_pose.final_rat_t_pose
+[2021.10.27-12.52.58:258][790]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_4:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2021.10.27-12.52.58:258][790]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.52.58:258][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.52.58:495][790]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-12.52.58:495][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-12.52.58:610][790]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.10.27-12.52.58:983][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:003][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:007][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:013][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:017][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:023][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:027][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:031][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:037][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:043][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:047][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:053][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:058][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:062][794]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:165][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:189][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:196][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:229][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:239][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:273][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:281][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:316][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:327][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:358][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:370][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:401][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:413][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:450][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:462][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:490][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:503][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:534][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:544][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:576][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:587][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:616][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:625][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:656][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:668][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:705][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.52.59:717][797]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.52.59:754][797]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.00:694][837]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 56
+[2021.10.27-12.53.00:694][837]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.00:697][837]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.10.27-12.53.00:697][837]LogShaderCompilers: Display: Total job queries 896, among them cache hits 0 (0.00%)
+[2021.10.27-12.53.00:697][837]LogShaderCompilers: Display: Tracking 5 distinct input hashes that result in 5 distinct outputs (100.00%)
+[2021.10.27-12.53.00:713][837]LogShaderCompilers: Display: RAM used: 0.03 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2021.10.27-12.53.00:713][837]LogShaderCompilers: Display: ================================================
+[2021.10.27-12.53.03:270][952]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 46
+[2021.10.27-12.53.03:270][952]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.04:265][  4]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 36
+[2021.10.27-12.53.04:266][  4]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.04:382][ 11]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2021.10.27-12.53.04:382][ 11]LogShaderCompilers: Display: Started 7 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.04:724][ 29]LogSlate: Window 'Message Log' being destroyed
+[2021.10.27-12.53.04:736][ 29]LogSlate: Window 'Message Log' being destroyed
+[2021.10.27-12.53.09:090][167]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
+[2021.10.27-12.53.09:090][167]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.09:343][171]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2021.10.27-12.53.09:343][171]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.11:867][245]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2021.10.27-12.53.11:867][245]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.11:868][245]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.10.27-12.53.11:868][245]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.12:098][252]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.10.27-12.53.12:098][252]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.12:265][257]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.10.27-12.53.12:265][257]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.12:813][274]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-12.53.12:813][274]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.13:198][285]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.10.27-12.53.13:198][285]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.13:423][292]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 392
+[2021.10.27-12.53.13:423][292]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.13:637][298]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 382
+[2021.10.27-12.53.13:637][298]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.13:757][301]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 372
+[2021.10.27-12.53.13:757][301]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.13:901][306]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 362
+[2021.10.27-12.53.13:901][306]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.19:602][506]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2021.10.27-12.53.19:603][506]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.20:160][534]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.10.27-12.53.20:658][561]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.10.27-12.53.20:658][561]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.21:470][604]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.10.27-12.53.21:470][604]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.22:827][675]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.10.27-12.53.22:827][675]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.10.27-12.53.22:827][675]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-12.53.23:187][694]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 339
+[2021.10.27-12.53.23:187][694]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.23:187][694]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 329
+[2021.10.27-12.53.23:187][694]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.24:467][763]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 319
+[2021.10.27-12.53.24:467][763]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.24:506][765]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 309
+[2021.10.27-12.53.24:506][765]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.29:156][ 23]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 299
+[2021.10.27-12.53.29:156][ 23]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.30:167][ 75]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 289
+[2021.10.27-12.53.30:167][ 75]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.30:915][114]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 279
+[2021.10.27-12.53.30:915][114]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.31:892][165]Cmd: DELETE
+[2021.10.27-12.53.31:892][165]Cmd: ACTOR DELETE
+[2021.10.27-12.53.31:923][165]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2021.10.27-12.53.31:975][165]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2021.10.27-12.53.31:978][165]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2021.10.27-12.53.32:350][185]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 269
+[2021.10.27-12.53.32:350][185]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.37:107][369]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 259
+[2021.10.27-12.53.37:107][369]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.37:760][394]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 249
+[2021.10.27-12.53.37:760][394]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.37:856][398]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 239
+[2021.10.27-12.53.37:856][398]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.41:604][554]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 229
+[2021.10.27-12.53.41:604][554]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.43:347][648]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 219
+[2021.10.27-12.53.43:347][648]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.44:337][705]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 209
+[2021.10.27-12.53.44:337][705]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.46:884][823]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 199
+[2021.10.27-12.53.46:884][823]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.47:824][874]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 189
+[2021.10.27-12.53.47:824][874]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.49:776][981]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 179
+[2021.10.27-12.53.49:776][981]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
