@@ -982,3 +982,58 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.27-12.30.34:824][572]LogFileHelpers: Loading map 'Endless_Runner' took 0.367
 [2021.10.27-12.30.34:852][572]AssetCheck: New page: Asset Save: Endless_Runner
 [2021.10.27-12.30.34:864][572]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-12.31.08:821][482]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.10.27-12.31.08:833][482]LogContentBrowser: Creating deferred item: NewFolder
+[2021.10.27-12.31.11:319][632]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2021.10.27-12.31.11:331][632]LogContentBrowser: End creating deferred item NewFolder
+[2021.10.27-12.31.14:871][831]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2021.10.27-12.31.22:204][831]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.10.27-12.31.22:267][831]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.10.27-12.31.22:274][831]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.10.27-12.31.32:976][473]LogContentBrowser: Attempting asset rename: NewBlueprint -> RatController
+[2021.10.27-12.31.33:106][473]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.10.27-12.31.34:986][581]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-12.31.36:123][581]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 126 classes and 0 folders.
+[2021.10.27-12.31.39:550][581]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2021.10.27-12.31.41:676][701]LogSlate: Took 0.025631 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.10.27-12.31.42:579][748]LogSlate: Took 0.013206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.10.27-12.32.03:889][979]LogSlate: Window 'RatController' being destroyed
+[2021.10.27-12.34.11:551][223]LogSlate: Took 0.023426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.10.27-12.34.28:370][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-12.34.28:426][201]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatController7B055F85453CCB518975AAA0E70578B0.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-12.34.28:442][201]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-12.34.28:442][201]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-12.34.29:148][244]BlueprintLog: New page: Compile RatController
+[2021.10.27-12.34.29:260][244]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2021.10.27-12.34.29:363][244]LogSlate: Took 0.035734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.10.27-12.36.13:632][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-12.36.13:740][373]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatControllerAF1E5C7B414EB14D4CB4C38A3F4E3207.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-12.36.13:756][373]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-12.36.13:756][373]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-12.36.14:211][400]BlueprintLog: New page: Compile RatController
+[2021.10.27-12.36.14:245][400]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.10.27-12.36.24:014][959]LogActorFactory: Actor Factory created Sphere
+[2021.10.27-12.36.24:876][  5]LogActorFactory: Actor Factory created Sphere
+[2021.10.27-12.36.29:275][230]Cmd: DELETE
+[2021.10.27-12.36.29:287][230]Cmd: ACTOR DELETE
+[2021.10.27-12.36.29:791][230]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.10.27-12.36.29:813][230]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.10.27-12.36.29:814][230]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2021.10.27-12.37.24:152][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.10.27-12.37.24:330][436]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner53A302B94A088E23008C959E0109941F.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-12.37.24:379][436]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-12.37.24:379][436]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-12.39.54:579][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-12.39.54:633][303]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatController5AA68B264EAAD5C6ED546D8746429F16.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-12.39.54:649][303]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-12.39.54:649][303]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-12.39.58:030][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-12.39.58:082][505]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatController08D7C7734D6A9FC8D3995A9A9C0B699F.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-12.39.58:099][505]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-12.39.58:099][505]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-12.39.59:027][555]BlueprintLog: New page: Compile RatController
+[2021.10.27-12.39.59:069][555]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.10.27-12.40.01:483][694]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.10.27-12.40.01:664][694]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner98ECC2B8448D5B0449403CB577C76BBA.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-12.40.01:702][694]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-12.40.01:702][694]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
