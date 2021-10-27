@@ -2833,3 +2833,883 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.27-13.21.25:408][492]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2021.10.27-13.21.25:415][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
 [2021.10.27-13.21.25:459][493]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2021.10.27-13.22.18:248][ 62]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.10.27-13.22.18:280][ 62]LogContentBrowser: Creating deferred item: NewFolder
+[2021.10.27-13.22.19:521][133]LogContentBrowser: Attempting asset rename: NewFolder -> Rat
+[2021.10.27-13.22.19:531][133]LogContentBrowser: End creating deferred item NewFolder
+[2021.10.27-13.22.25:156][453]LogMetaData: Removing '/Game/Models/Rat/final_rat_t_pose.final_rat_t_pose' ref from Metadata '/Game/Models/final_rat_t_pose.PackageMetaData'
+[2021.10.27-13.22.25:287][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert8" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert8.uasset" SILENT=true
+[2021.10.27-13.22.25:307][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert849F4F6E2441E8462CB8496B3FDFF9E7C.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert8.uasset'
+[2021.10.27-13.22.25:322][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/final_rat_t_pose" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/final_rat_t_pose.uasset" SILENT=true
+[2021.10.27-13.22.25:473][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/final_rat_t_poseA73E9CA54414F1FBED8D60BEBD41169F.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/final_rat_t_pose.uasset'
+[2021.10.27-13.22.25:501][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/final_rat_t_pose_PhysicsAssetDDB6CC63497D996CF7368A95A8F05659.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/final_rat_t_pose_PhysicsAsset.uasset'
+[2021.10.27-13.22.25:512][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/final_rat_t_pose_Skeleton6E478B514A20EF61CC4E0BBFD60DF05F.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/final_rat_t_pose_Skeleton.uasset'
+[2021.10.27-13.22.25:524][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert1" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert1.uasset" SILENT=true
+[2021.10.27-13.22.25:537][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert115661CB649D99BFD420A838410D36986.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert1.uasset'
+[2021.10.27-13.22.25:549][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert10" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert10.uasset" SILENT=true
+[2021.10.27-13.22.25:562][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert108668210845C2703D1CBE4D91021E51A5.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert10.uasset'
+[2021.10.27-13.22.25:575][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert11" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert11.uasset" SILENT=true
+[2021.10.27-13.22.25:589][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert11F289682D4662DCFDA0A1CC8735F66786.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert11.uasset'
+[2021.10.27-13.22.25:602][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert12" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert12.uasset" SILENT=true
+[2021.10.27-13.22.25:614][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert122E98780F4362406EBD8D40AFF60E32C8.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert12.uasset'
+[2021.10.27-13.22.25:629][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert13" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert13.uasset" SILENT=true
+[2021.10.27-13.22.25:643][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert138F2071EC4A6ADC5A0098BF92DF7B810D.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert13.uasset'
+[2021.10.27-13.22.25:656][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert15" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert15.uasset" SILENT=true
+[2021.10.27-13.22.25:669][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert152564AD6C49777AA8D84DEBA841346BB2.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert15.uasset'
+[2021.10.27-13.22.25:682][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert16" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert16.uasset" SILENT=true
+[2021.10.27-13.22.25:697][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert16D09DDB4D4098A81979302A905882CE67.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert16.uasset'
+[2021.10.27-13.22.25:709][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert2" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert2.uasset" SILENT=true
+[2021.10.27-13.22.25:724][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert2CB258364409CD98CE3365F9537329F74.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert2.uasset'
+[2021.10.27-13.22.25:736][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert3" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert3.uasset" SILENT=true
+[2021.10.27-13.22.25:755][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert3C7CF4DA24DBC54962217AE84986BD6AB.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert3.uasset'
+[2021.10.27-13.22.25:768][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert4" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert4.uasset" SILENT=true
+[2021.10.27-13.22.25:781][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert41A3127DC4CF5696465D536BE96758A30.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert4.uasset'
+[2021.10.27-13.22.25:794][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert5" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert5.uasset" SILENT=true
+[2021.10.27-13.22.25:812][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert5C240E3BE487B1A656DEC85B5A2C6D692.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert5.uasset'
+[2021.10.27-13.22.25:824][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert6" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert6.uasset" SILENT=true
+[2021.10.27-13.22.25:837][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert65B84BE8A4448DDB9D69E7DBA57FF2A71.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert6.uasset'
+[2021.10.27-13.22.25:849][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rat/lambert7" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert7.uasset" SILENT=true
+[2021.10.27-13.22.25:863][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/lambert7B140357D42A6C47A6F15FFB21FBAF47A.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Rat/lambert7.uasset'
+[2021.10.27-13.22.26:207][453]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.10.27-13.22.26:237][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.10.27-13.22.26:262][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.10.27-13.22.26:289][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.10.27-13.22.26:316][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.10.27-13.22.26:342][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.10.27-13.22.26:369][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.10.27-13.22.26:396][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.10.27-13.22.26:425][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.10.27-13.22.26:451][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.10.27-13.22.26:479][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.10.27-13.22.26:505][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.10.27-13.22.26:532][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.10.27-13.22.26:559][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.10.27-13.22.26:585][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.10.27-13.22.26:612][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.10.27-13.22.26:641][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.10.27-13.22.26:676][453]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.10.27-13.22.26:703][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.10.27-13.22.26:735][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-13.22.26:805][453]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatController0B20895044E7C5328CEC04B193E3F181.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-13.22.27:027][453]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.27-13.22.27:028][453]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-13.22.27:028][453]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Rat/final_rat_t_pose_PhysicsAsset.final_rat_t_pose_PhysicsAsset
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Skeleton /Game/Models/Rat/final_rat_t_pose_Skeleton.final_rat_t_pose_Skeleton
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert15.lambert15
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert1.lambert1
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert3.lambert3
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert6.lambert6
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert4.lambert4
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert5.lambert5
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert7.lambert7
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert16.lambert16
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert11.lambert11
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert13.lambert13
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert10.lambert10
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert12.lambert12
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert8.lambert8
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating Material /Game/Models/Rat/lambert2.lambert2
+[2021.10.27-13.22.27:041][453]LogContentValidation: Display: Validating SkeletalMesh /Game/Models/Rat/final_rat_t_pose.final_rat_t_pose
+[2021.10.27-13.22.28:881][557]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.10.27-13.22.28:894][557]LogContentBrowser: Creating deferred item: NewFolder
+[2021.10.27-13.22.31:847][735]LogContentBrowser: Attempting asset rename: NewFolder -> Tunnel
+[2021.10.27-13.22.31:858][735]LogContentBrowser: End creating deferred item NewFolder
+[2021.10.27-13.23.51:076][217]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Uni\1288 - Advanced Games Design and Development\Pi-Project-Repo\Pi Game\Assets\Models\Pipe.obj)
+[2021.10.27-13.23.51:108][217]LogFbx: Loading FBX Scene from E:\Uni\1288 - Advanced Games Design and Development\Pi-Project-Repo\Pi Game\Assets\Models\Pipe.obj
+[2021.10.27-13.23.51:144][217]LogFbx: FBX Scene Loaded Succesfully
+[2021.10.27-13.23.59:082][217]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.10.27-13.23.59:174][217]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 6E5FDE31CBC0D6526B2F345E289C2328F0DBA555), compiling. 
+[2021.10.27-13.23.59:177][217]LogFbx: Display: Triangulating static mesh Pipe
+[2021.10.27-13.23.59:245][217]LogStaticMesh: Building static mesh Pipe...
+[2021.10.27-13.23.59:284][217]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Tunnel/Pipe.Pipe
+[2021.10.27-13.23.59:418][217]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.10.27-13.23.59:625][221]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.23.59:626][221]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.23.59:626][221]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.23.59:626][221]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.23.59:645][222]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2021.10.27-13.23.59:670][223]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2021.10.27-13.23.59:670][223]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2021.10.27-13.23.59:670][223]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.24.02:117][369]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.10.27-13.24.02:117][369]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.24.02:124][369]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.10.27-13.24.02:124][369]LogShaderCompilers: Display: Total job queries 915, among them cache hits 3 (0.33%)
+[2021.10.27-13.24.02:124][369]LogShaderCompilers: Display: Tracking 481 distinct input hashes that result in 42 distinct outputs (8.73%)
+[2021.10.27-13.24.02:124][369]LogShaderCompilers: Display: RAM used: 0.26 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2021.10.27-13.24.02:124][369]LogShaderCompilers: Display: ================================================
+[2021.10.27-13.24.02:365][384]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.10.27-13.24.02:366][384]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.24.02:655][401]LogSlate: Window 'Message Log' being destroyed
+[2021.10.27-13.24.02:661][401]LogSlate: Window 'Message Log' being destroyed
+[2021.10.27-13.24.04:096][470]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.10.27-13.24.04:096][470]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.24.04:143][472]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.10.27-13.24.04:143][472]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.24.33:703][936]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:\Uni\1288 - Advanced Games Design and Development\Pi-Project-Repo\Pi Game\Assets\Textures\Sewer textures\sewer_obj_INSIDE_sewer_Albedo.png)
+[2021.10.27-13.24.33:811][936]LogTexture: Display: Building textures: sewer_obj_INSIDE_sewer_Albedo (OODLE_AutoDXT, 1024X1024)
+[2021.10.27-13.24.33:975][936]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2021.10.27-13.24.38:933][ 40]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:\Uni\1288 - Advanced Games Design and Development\Pi-Project-Repo\Pi Game\Assets\Textures\Sewer textures\sewer_obj_INSIDE_sewer_Normal.png)
+[2021.10.27-13.24.39:066][ 40]LogTexture: Display: Building textures: sewer_obj_INSIDE_sewer_Normal (OODLE_BC5, 1024X1024)
+[2021.10.27-13.24.39:128][ 40]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2021.10.27-13.24.42:377][201]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/Tunnel/PipeMat.PipeMat
+[2021.10.27-13.24.42:455][201]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 502CA319B8587E63996960AF7FDA438DB43C7002), compiling. 
+[2021.10.27-13.24.42:876][201]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 1F7793E5F2E4D5859ABB78CAA574CA75E9D84409), compiling. 
+[2021.10.27-13.24.42:878][201]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E388D2B9C17B20AAC46631E61F26882B3F85AE53), compiling. 
+[2021.10.27-13.24.43:027][201]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.24.43:530][203]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.24.43:532][203]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.10.27-13.24.43:532][203]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.10.27-13.24.43:532][203]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.10.27-13.24.43:532][203]MaterialEditorStats: Texture samplers: 2/16
+[2021.10.27-13.24.43:539][204]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.24.43:539][204]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.24.43:539][204]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.25.01:014][215]LogSlate: Window 'Color Picker' being destroyed
+[2021.10.27-13.25.20:006][340]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: C7FF147E8EBB2DEC6CB27AEE2CBD5FDE2DE30402), compiling. 
+[2021.10.27-13.25.20:008][340]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 039D18545BDDFBA748406548BEDE666EA8B6382D), compiling. 
+[2021.10.27-13.25.20:029][340]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.25.20:078][342]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.10.27-13.25.20:078][342]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.10.27-13.25.20:079][342]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.10.27-13.25.20:079][342]MaterialEditorStats: Texture samplers: 2/16
+[2021.10.27-13.25.25:902][690]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 76ECF6BAFBF03630ADFB537C99ACD32FBB3D21EC), compiling. 
+[2021.10.27-13.25.25:904][690]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.25.25:945][691]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.25.25:945][691]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.25.25:945][691]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.25.25:946][691]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.25.25:946][691]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2021.10.27-13.25.25:946][691]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.10.27-13.25.25:946][691]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.10.27-13.25.25:946][691]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.25.26:792][739]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.10.27-13.25.26:792][739]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.25.27:011][752]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.10.27-13.25.27:011][752]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.25.27:014][752]MaterialEditorStats: Texture samplers: 2/16
+[2021.10.27-13.25.28:418][836]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.10.27-13.25.28:418][836]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.10.27-13.25.28:418][836]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.10.27-13.25.28:418][836]MaterialEditorStats: Texture samplers: 2/16
+[2021.10.27-13.25.30:241][945]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 72E46AC8E7C0156C722FCF6B2763553BE0620BC1), compiling. 
+[2021.10.27-13.25.30:242][945]LogMaterial: Warning: [AssetLog] /Engine/Transient.PipeMat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.10.27-13.25.30:242][945]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.10.27-13.25.30:275][945]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C94FD9193B52C02B01C621DBCEE9A94A82B3A91A), compiling. 
+[2021.10.27-13.25.30:279][945]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2021.10.27-13.25.50:182][113]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 9F931561AB5AC2741365D9F75D69B43F444A50DB), compiling. 
+[2021.10.27-13.25.50:225][113]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 13B5151B853C050C0579AEC4754FFE5EDB93D9B4), compiling. 
+[2021.10.27-13.25.50:233][113]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: EB18B905BE3D0DBC2E43781234D80F6B5AA8EDBF), compiling. 
+[2021.10.27-13.25.50:238][113]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.25.50:238][113]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.10.27-13.25.50:238][113]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.25.50:288][114]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.25.50:288][114]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.25.50:288][114]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.25.50:288][114]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.25.50:288][114]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2021.10.27-13.25.50:288][114]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.10.27-13.25.50:288][114]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.10.27-13.25.50:288][114]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.25.50:300][115]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.25.51:104][163]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.10.27-13.25.51:104][163]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.25.51:287][172]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.10.27-13.25.51:287][172]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.25.51:290][172]MaterialEditorStats: Texture samplers: 3/16
+[2021.10.27-13.25.51:290][172]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.10.27-13.25.51:290][172]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.25.51:838][205]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.10.27-13.25.51:838][205]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.25.51:984][214]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.10.27-13.25.51:984][214]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.25.52:946][269]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.10.27-13.25.52:946][269]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.10.27-13.25.52:946][269]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.25.52:946][269]MaterialEditorStats: Texture samplers: 3/16
+[2021.10.27-13.25.52:946][269]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.10.27-13.25.52:946][269]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.26.05:197][  3]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 912DA065AF160F642992554F9588FF324D8D0E2C), compiling. 
+[2021.10.27-13.26.05:205][  3]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 45432D7D69E0B116619FA41E8A62059747791B7D), compiling. 
+[2021.10.27-13.26.05:209][  3]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.26.05:209][  3]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.10.27-13.26.05:209][  3]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.26.05:258][  5]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.10.27-13.26.05:258][  5]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.10.27-13.26.05:258][  5]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.26.05:258][  5]MaterialEditorStats: Texture samplers: 3/16
+[2021.10.27-13.26.05:258][  5]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.10.27-13.26.05:258][  5]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.26.09:729][271]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 12913106A0532F9A75BB7A3E92DB24E15F442003), compiling. 
+[2021.10.27-13.26.09:731][271]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 2E57E4AFDC6F35D2FC5B64875230FA10606328ED), compiling. 
+[2021.10.27-13.26.09:734][271]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: AAAB9E30946EEBF0C5BC2867ECC4B581A8293721), compiling. 
+[2021.10.27-13.26.09:739][271]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.26.09:739][271]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.10.27-13.26.09:739][271]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.26.09:778][272]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.26.09:778][272]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.10.27-13.26.09:778][272]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.10.27-13.26.09:778][272]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.26.09:778][272]MaterialEditorStats: Texture samplers: 3/16
+[2021.10.27-13.26.09:778][272]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.10.27-13.26.09:778][272]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.26.09:790][273]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.26.09:790][273]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.26.09:790][273]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.26.15:680][623]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 8C19995A7AEF620D5EEC23B16A10C3603EB98AF5), compiling. 
+[2021.10.27-13.26.15:681][623]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: B0D8A7BC68FDF49F5CE3253C00B91C22EF4223FB), compiling. 
+[2021.10.27-13.26.15:685][623]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.26.15:685][623]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.26.15:685][623]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.26.15:691][624]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.26.15:697][625]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2021.10.27-13.26.15:699][625]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.26.15:699][625]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.26.15:699][625]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.10.27-13.26.15:699][625]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.10.27-13.26.15:699][625]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.26.15:699][625]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.26.16:408][667]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.10.27-13.26.16:408][667]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.26.16:656][682]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.10.27-13.26.16:656][682]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.26.16:678][683]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.26.16:678][683]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.26.16:678][683]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.26.18:393][779]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.26.18:393][779]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.26.18:393][779]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.26.18:393][779]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.26.18:393][779]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.26.18:393][779]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.26.18:559][789]LogMaterialEditor: Saving and Compiling material PipeMat
+[2021.10.27-13.26.22:458][789]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 9006632495DC00169F0049F7AF6F19898501E34C), compiling. 
+[2021.10.27-13.26.22:490][789]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 8319D2FB52CBB6F19C703BFAFB38EBB46B399D7D), compiling. 
+[2021.10.27-13.26.22:535][789]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.10.27-13.26.22:548][789]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.26.22:929][789]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.10.27-13.26.22:929][789]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.26.23:007][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.10.27-13.26.23:063][789]LogShaderCompilers: Display: Submitted 5 shader compile jobs with 'Normal' priority
+[2021.10.27-13.26.23:074][789]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.10.27-13.26.23:074][789]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.10.27-13.26.23:074][789]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.10.27-13.26.23:074][789]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.26.23:088][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Tunnel/PipeMat" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/PipeMat.uasset" SILENT=true
+[2021.10.27-13.26.23:103][789]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/PipeMatCC3665DC459DCAD650EE859B82C7F4A7.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/PipeMat.uasset'
+[2021.10.27-13.26.23:123][789]AssetCheck: New page: Asset Save: PipeMat
+[2021.10.27-13.26.23:123][789]LogContentValidation: Display: Validating Material /Game/Models/Tunnel/PipeMat.PipeMat
+[2021.10.27-13.26.23:129][789]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.26.23:129][789]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.26.23:129][789]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.26.24:339][862]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.26.24:339][862]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.26.24:339][862]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.26.24:339][862]MaterialEditorStats: Texture samplers: 5/16
+[2021.10.27-13.26.24:339][862]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.26.24:339][862]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.26.27:327][ 35]LogActorFactory: Actor Factory created Pipe
+[2021.10.27-13.26.30:840][239]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/Tunnel/Pipe.Pipe
+[2021.10.27-13.26.32:337][240]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2021.10.27-13.26.40:022][691]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.26.40:022][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.26.42:443][827]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.26.42:443][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.26.43:651][893]LogActorFactory: Actor Factory created Pipe
+[2021.10.27-13.26.45:574][  8]LogActorFactory: Actor Factory created Pipe
+[2021.10.27-13.26.45:840][ 20]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.10.27-13.27.11:572][542]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.10.27-13.27.31:973][738]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/Tunnel/PipeMat.PipeMat
+[2021.10.27-13.27.31:974][738]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 7F447E37CFF276B4085A9D687F28BEC6586C9A64), compiling. 
+[2021.10.27-13.27.31:985][738]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2021.10.27-13.27.32:058][738]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DDD634C24B9B5049281A6A4570217DA2B9B3DE50), compiling. 
+[2021.10.27-13.27.32:066][738]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B2082513C2CFA51F809ED2F333C8D64E14C44FC0), compiling. 
+[2021.10.27-13.27.32:069][738]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: BEDB2408D75553B8E9B8600A18CF7428C4894440), compiling. 
+[2021.10.27-13.27.32:070][738]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: B654F61E62E5C48AF6359D6A4B79CAD704D98860), compiling. 
+[2021.10.27-13.27.32:094][738]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.27.32:094][738]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.27.32:094][738]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.27.32:436][739]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.27.32:437][739]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.27.32:437][739]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.27.32:437][739]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.27.32:437][739]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2021.10.27-13.27.32:437][739]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.10.27-13.27.32:437][739]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.10.27-13.27.32:437][739]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.27.32:514][742]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.10.27-13.27.32:514][742]LogShaderCompilers: Display: Total job queries 1061, among them cache hits 87 (8.20%)
+[2021.10.27-13.27.32:514][742]LogShaderCompilers: Display: Tracking 538 distinct input hashes that result in 63 distinct outputs (11.71%)
+[2021.10.27-13.27.32:514][742]LogShaderCompilers: Display: RAM used: 0.38 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.05%
+[2021.10.27-13.27.32:514][742]LogShaderCompilers: Display: ================================================
+[2021.10.27-13.27.33:342][791]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.10.27-13.27.33:342][791]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.27.33:496][800]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.10.27-13.27.33:496][800]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.27.33:498][800]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.27.33:499][800]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.27.33:499][800]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.27.34:867][882]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.27.34:867][882]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.27.34:867][882]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.27.34:867][882]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.27.34:867][882]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.27.34:867][882]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.27.37:491][ 39]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4D74312E5E12D82B2615D1136CED98EC492FB08D), compiling. 
+[2021.10.27-13.27.37:498][ 39]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: BD960D6C944D99756270FC20CCDEFD7FA843FAE7), compiling. 
+[2021.10.27-13.27.51:128][856]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: BA6FAED244B800E626B85D00086FBDC49E912A00), compiling. 
+[2021.10.27-13.27.51:132][856]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.27.51:133][856]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.27.51:133][856]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.27.51:189][857]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 51895D3EAA422BA15FCE8EFFBAC52FAC28EA6E2A), compiling. 
+[2021.10.27-13.27.51:200][857]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.27.51:200][857]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.27.51:200][857]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.27.51:200][857]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.27.51:200][857]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.27.51:200][857]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.27.51:211][858]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.27.51:212][858]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.27.51:212][858]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.27.51:212][858]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.27.51:212][858]LogShaderCompilers: Display: Submitted 4 shader compile jobs with 'Normal' priority
+[2021.10.27-13.27.51:221][859]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.10.27-13.27.51:221][859]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.10.27-13.27.51:221][859]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.27.59:278][340]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 41D7EA0CD8CE84F107FFB07A5B7B06CD0CB436A4), compiling. 
+[2021.10.27-13.27.59:281][340]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.27.59:281][340]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.27.59:281][340]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.27.59:340][342]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.27.59:340][342]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.27.59:340][342]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.27.59:340][342]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.27.59:340][342]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.27.59:340][342]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.28.53:160][567]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 785222E7BCC3EBC2888E5C601BB1B9304A65E05E), compiling. 
+[2021.10.27-13.28.53:165][567]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.28.53:165][567]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.28.53:165][567]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.28.53:193][568]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.28.53:193][568]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.28.53:193][568]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.28.53:194][568]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.28.53:194][568]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.28.53:194][568]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.29.11:946][692]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5AE9347A641D5FD910BE5A4F1BC2B974C2E8FB4E), compiling. 
+[2021.10.27-13.29.11:947][692]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 523E4FA46E82A3D0D78847F78E524A276F27AF85), compiling. 
+[2021.10.27-13.29.11:951][692]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.29.11:951][692]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.29.11:951][692]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.29.11:957][693]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.29.11:957][693]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.29.11:957][693]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.29.11:957][693]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.29.11:966][694]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.11:974][694]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.29.11:975][694]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.10.27-13.29.11:975][694]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.10.27-13.29.11:975][694]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.29.12:909][748]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.10.27-13.29.12:909][748]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.12:927][749]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.10.27-13.29.12:927][749]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.13:023][755]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.10.27-13.29.13:023][755]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.13:159][763]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.29.13:159][763]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.13:164][763]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.29.13:164][763]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.29.13:164][763]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.29.13:810][802]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.10.27-13.29.13:811][802]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.14:950][870]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.29.14:950][870]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.29.14:950][870]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.29.14:950][870]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.29.14:950][870]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.29.14:950][870]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.29.24:496][439]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B95B528644FF36BB074AB03A171C2DD70DB231B3), compiling. 
+[2021.10.27-13.29.24:500][439]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 27FE00E77A01F3A972C9C49802513AB43390FAB0), compiling. 
+[2021.10.27-13.29.24:505][439]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.29.24:505][439]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.29.24:505][439]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.29.24:536][440]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.29.24:536][440]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.24:536][440]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.29.24:536][440]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.29.24:536][440]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.10.27-13.29.24:536][440]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.10.27-13.29.24:536][440]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.24:536][440]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.29.24:539][440]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8ED717DD5876E02B0B12E82C553FF637086F255F), compiling. 
+[2021.10.27-13.29.24:558][441]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.29.24:558][441]LogShaderCompilers: Display: Submitted 4 shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.25:154][477]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.10.27-13.29.25:154][477]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.29.25:357][489]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.10.27-13.29.25:357][489]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.29.25:377][490]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.29.25:377][490]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.29.25:377][490]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.29.26:000][526]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.10.27-13.29.26:000][526]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.26:132][534]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.10.27-13.29.26:132][534]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.26:705][568]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.29.26:705][568]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.26:801][574]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.29.26:801][574]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.29.27:624][623]MaterialEditorStats: Base pass shader: 127 instructions
+[2021.10.27-13.29.27:624][623]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2021.10.27-13.29.27:624][623]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.29.27:624][623]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.29.27:624][623]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.29.27:624][623]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.29.38:510][271]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 939EFFD5FDD8E3DEE89B7CB6AE4D9561946E1F5A), compiling. 
+[2021.10.27-13.29.38:512][271]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.29.38:512][271]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.29.38:512][271]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.29.38:582][273]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.29.38:582][273]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.29.38:582][273]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.29.38:582][273]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.29.38:583][273]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.29.38:583][273]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.30.00:629][588]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2B0AC06EC48815C41D7144A8A65F8DA6124DBD0C), compiling. 
+[2021.10.27-13.30.00:633][588]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.30.00:633][588]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.30.00:633][588]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.30.00:663][589]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.30.00:663][589]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.30.00:663][589]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.30.00:663][589]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.30.00:663][589]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.30.00:663][589]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.31.14:336][382]LogAssetEditorSubsystem: Opening Asset editor for MaterialFunction /Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.MakeFloat2
+[2021.10.27-13.31.14:412][382]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 7590C0880489EB68C0DFBC8C5349B4C80B13E06F), compiling. 
+[2021.10.27-13.31.14:414][382]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 5D9C34BAF63F37F16AE95A797852AA2750FC2D9B), compiling. 
+[2021.10.27-13.31.14:422][382]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E69535D1BA2D7509B7FC74392C4E8D5D9CA125A8), compiling. 
+[2021.10.27-13.31.14:425][382]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 442D73D23DB409A36CF5C94870F06A6732400DB6), compiling. 
+[2021.10.27-13.31.14:427][382]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F37DE36DE8EDD24896995EBE8F872A7847DAFE1D), compiling. 
+[2021.10.27-13.31.14:429][382]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionFunctionOutput_12 in PCD3D_SM5, Default, SM5 (DDC key hash: AD0F6BFCF4EED33C730959437C69996D8E481DB7), compiling. 
+[2021.10.27-13.31.14:430][382]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionFunctionInput_2 in PCD3D_SM5, Default, SM5 (DDC key hash: F69C19E71387A9C638BE9F83C08EFEAFC10ECFFB), compiling. 
+[2021.10.27-13.31.14:432][382]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionFunctionInput_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 94AEC172B46047A6053AB81764A874DB9F3C80BD), compiling. 
+[2021.10.27-13.31.14:825][383]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.14:825][383]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.31.14:825][383]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.31.14:825][383]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.14:825][383]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'Normal' priority
+[2021.10.27-13.31.14:825][383]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.10.27-13.31.14:825][383]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.31.14:899][388]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.14:899][388]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.10.27-13.31.14:899][388]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.14:949][391]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.14:949][391]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.16:461][481]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.10.27-13.31.16:461][481]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.16:468][481]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.10.27-13.31.16:468][481]LogShaderCompilers: Display: Total job queries 1159, among them cache hits 142 (12.25%)
+[2021.10.27-13.31.16:468][481]LogShaderCompilers: Display: Tracking 583 distinct input hashes that result in 73 distinct outputs (12.52%)
+[2021.10.27-13.31.16:469][481]LogShaderCompilers: Display: RAM used: 0.44 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.05%
+[2021.10.27-13.31.16:469][481]LogShaderCompilers: Display: ================================================
+[2021.10.27-13.31.16:559][487]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.10.27-13.31.16:559][487]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.16:658][493]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.10.27-13.31.16:658][493]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.16:691][495]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.10.27-13.31.16:691][495]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.21:628][785]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.31.21:628][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.31.23:892][919]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 7D7D74755363421488BEF61F92A0DB16C4DC7067), compiling. 
+[2021.10.27-13.31.23:894][919]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.31.23:894][919]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.31.23:894][919]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.31.23:944][921]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.31.23:944][921]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.31.23:944][921]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.31.23:944][921]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.31.23:944][921]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.31.23:944][921]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.31.33:283][479]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: CAAF208E21B260223E1490A97DA2DF40C94D1A79), compiling. 
+[2021.10.27-13.31.33:285][479]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 91AECB8DC526BEECD4C1479E30E7FF509DA09A07), compiling. 
+[2021.10.27-13.31.33:292][479]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.31.33:292][479]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.31.33:292][479]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.31.33:317][480]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.33:317][480]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.31.33:317][480]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.31.33:317][480]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.33:317][480]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2021.10.27-13.31.33:317][480]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.10.27-13.31.33:318][480]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.10.27-13.31.33:318][480]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.31.33:321][480]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D786BB55B28B97732848FEAB7FBCDE327B5C8B7A), compiling. 
+[2021.10.27-13.31.33:338][481]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.33:338][481]LogShaderCompilers: Display: Submitted 4 shader compile jobs with 'Normal' priority
+[2021.10.27-13.31.33:967][519]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.10.27-13.31.33:967][519]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.34:135][529]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.10.27-13.31.34:135][529]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.31.34:156][530]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.31.34:156][530]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.31.34:156][530]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.31.34:782][565]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.10.27-13.31.34:782][565]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.31.34:816][567]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.10.27-13.31.34:816][567]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.31.35:435][604]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.31.35:436][604]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.31.35:555][611]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.31.35:555][611]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.31.36:105][643]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1C12C5F875B88BCBDECFFB21D66597350D865EB4), compiling. 
+[2021.10.27-13.31.36:107][643]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.31.36:107][643]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.31.36:107][643]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.31.36:152][645]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.31.36:152][645]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.31.36:152][645]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.31.36:152][645]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.31.36:152][645]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.31.36:152][645]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.32.16:929][719]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2021.10.27-13.32.17:124][719]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner_Auto1B864526F48DBB8D8BEC307BBCB4AC907.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Autosaves/Game/Levels/Endless_Runner_Auto1.umap'
+[2021.10.27-13.32.17:133][719]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Endless_Runner' took 0.310
+[2021.10.27-13.32.17:133][719]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.310
+[2021.10.27-13.32.17:145][719]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Tunnel/Pipe] ([1] browsable assets)...
+[2021.10.27-13.32.17:158][719]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Tunnel/Pipe.Pipe]
+[2021.10.27-13.32.17:158][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Tunnel/Pipe]
+[2021.10.27-13.32.17:218][719]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Pipe_Auto1E3C9D02A4DE87E54C379E7B7D29872C3.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Autosaves/Game/Models/Tunnel/Pipe_Auto1.uasset'
+[2021.10.27-13.32.17:221][719]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Tunnel/sewer_obj_INSIDE_sewer_Albedo] ([1] browsable assets)...
+[2021.10.27-13.32.17:227][719]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Tunnel/sewer_obj_INSIDE_sewer_Albedo.sewer_obj_INSIDE_sewer_Albedo]
+[2021.10.27-13.32.17:227][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Tunnel/sewer_obj_INSIDE_sewer_Albedo]
+[2021.10.27-13.32.17:253][719]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/sewer_obj_INSIDE_sewer_Albedo_Au409C97B84703AA480A06DF8CEBCFD77A.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Autosaves/Game/Models/Tunnel/sewer_obj_INSIDE_sewer_Albedo_Auto1.uasset'
+[2021.10.27-13.32.17:255][719]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Tunnel/sewer_obj_INSIDE_sewer_Normal] ([1] browsable assets)...
+[2021.10.27-13.32.17:262][719]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Tunnel/sewer_obj_INSIDE_sewer_Normal.sewer_obj_INSIDE_sewer_Normal]
+[2021.10.27-13.32.17:262][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Tunnel/sewer_obj_INSIDE_sewer_Normal]
+[2021.10.27-13.32.17:288][719]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/sewer_obj_INSIDE_sewer_Normal_Au942EE7B647E387B3C6D4B2986CEB0EF7.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Autosaves/Game/Models/Tunnel/sewer_obj_INSIDE_sewer_Normal_Auto1.uasset'
+[2021.10.27-13.32.17:289][719]LogFileHelpers: Auto-saving content packages took 0.156
+[2021.10.27-13.33.47:974][659]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 30073E34B195BA5D189B83C1539CC36B47CFC020), compiling. 
+[2021.10.27-13.33.47:976][659]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3BA9F9410FEE001E11F554E0D4A4F600FF5ABFFF), compiling. 
+[2021.10.27-13.33.47:979][659]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.33.47:979][659]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.33.47:979][659]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.33.48:037][661]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.33.48:037][661]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.33.48:037][661]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.33.48:037][661]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.33.48:037][661]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.33.48:037][661]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.33.52:429][923]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D6C14C4DA7DC199E680DBBEB4CA3499DF4E91EF9), compiling. 
+[2021.10.27-13.33.52:432][923]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.33.52:433][923]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.33.52:433][923]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.33.52:476][925]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.33.52:476][925]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.33.52:476][925]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.33.52:476][925]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.33.52:476][925]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.33.52:476][925]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.34.03:125][237]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8AC64DF2232632AA3E3C45DE44571893570FAADF), compiling. 
+[2021.10.27-13.34.03:126][237]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C1495A53BC8763AB9E3D7F8312CBE2D9060BA354), compiling. 
+[2021.10.27-13.34.03:130][237]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.34.03:130][237]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.34.03:130][237]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.34.03:153][239]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.34.03:153][239]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.34.03:153][239]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.34.03:171][240]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.34.03:171][240]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.34.03:171][240]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.34.03:171][240]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.34.03:171][240]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.34.03:171][240]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.34.05:174][359]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: BCAC5BBC523C8EE38BC7FEF9E59D6AC3DA67461D), compiling. 
+[2021.10.27-13.34.05:176][359]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 644E9598334E59DE35471CF6A086EFE980A40280), compiling. 
+[2021.10.27-13.34.05:179][359]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.34.05:179][359]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.34.05:179][359]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.34.05:203][361]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.34.05:203][361]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.34.05:203][361]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.34.05:220][362]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.34.05:220][362]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.34.05:220][362]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.34.05:220][362]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.34.05:220][362]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.34.05:220][362]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.34.52:732][702]LogMaterialEditor: Saving and Compiling material PipeMat
+[2021.10.27-13.34.56:126][702]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C2AE71DFE9665F1334463DA0ABFB992CB12C04F7), compiling. 
+[2021.10.27-13.34.56:195][702]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: F46A2A3781285B1D4744900C645F40A5503E92FA), compiling. 
+[2021.10.27-13.34.56:269][702]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2021.10.27-13.34.56:388][702]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.10.27-13.34.56:388][702]LogShaderCompilers: Display: Total job queries 1273, among them cache hits 240 (18.85%)
+[2021.10.27-13.34.56:388][702]LogShaderCompilers: Display: Tracking 607 distinct input hashes that result in 80 distinct outputs (13.18%)
+[2021.10.27-13.34.56:388][702]LogShaderCompilers: Display: RAM used: 0.49 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.06%
+[2021.10.27-13.34.56:389][702]LogShaderCompilers: Display: ================================================
+[2021.10.27-13.34.56:423][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.10.27-13.34.56:460][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Tunnel/PipeMat" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/PipeMat.uasset" SILENT=true
+[2021.10.27-13.34.56:482][702]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/PipeMat99C75CA243736F694559178B33E56C23.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/PipeMat.uasset'
+[2021.10.27-13.34.56:502][702]AssetCheck: New page: Asset Save: PipeMat
+[2021.10.27-13.34.56:502][702]LogContentValidation: Display: Validating Material /Game/Models/Tunnel/PipeMat.PipeMat
+[2021.10.27-13.34.56:505][702]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.10.27-13.34.56:505][702]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2021.10.27-13.34.56:505][702]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.34.56:505][702]MaterialEditorStats: Texture samplers: 5/16
+[2021.10.27-13.34.56:505][702]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.34.56:505][702]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.35.05:368][234]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 23D69953B336B8DEC3D8B256F6133A5F8D97381D), compiling. 
+[2021.10.27-13.35.05:376][234]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5968B7C293771A42F9E98B2E1ABE9C701E6B6930), compiling. 
+[2021.10.27-13.35.05:379][234]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.35.05:379][234]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.35.05:379][234]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.35.05:384][235]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.05:391][236]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.05:395][236]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.35.05:395][236]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.35.05:395][236]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.10.27-13.35.05:395][236]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.10.27-13.35.05:395][236]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.05:395][236]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.06:003][272]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A40ACE4DB12F956D480733A199FA9544008ECA76), compiling. 
+[2021.10.27-13.35.06:011][272]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3EE5AEC6D0DB9CF20F59A89DEF6F6B0CD0BCD9A0), compiling. 
+[2021.10.27-13.35.06:018][273]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.06:027][274]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.07:692][373]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.10.27-13.35.07:692][373]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.07:893][385]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.10.27-13.35.07:893][385]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.08:560][425]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.10.27-13.35.08:560][425]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.08:626][429]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.10.27-13.35.08:627][429]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.08:650][430]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.27-13.35.08:650][430]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.35.08:650][430]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.35.09:482][480]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.10.27-13.35.09:482][480]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.09:731][495]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.10.27-13.35.09:731][495]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.10:220][523]LogMaterialEditor: Saving and Compiling material PipeMat
+[2021.10.27-13.35.10:675][523]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.10.27-13.35.10:675][523]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.10:688][523]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E49E6C12F4A29CA5E471FDCE051552DDB9B80936), compiling. 
+[2021.10.27-13.35.10:727][523]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: D7E96F518200EA6463642E9A0CBA779F570A8ED4), compiling. 
+[2021.10.27-13.35.10:784][523]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.10:784][523]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.35.10:784][523]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.35.10:784][523]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.10:784][523]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2021.10.27-13.35.12:517][523]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.10.27-13.35.12:518][523]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.12:578][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.10.27-13.35.13:128][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Tunnel/PipeMat" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/PipeMat.uasset" SILENT=true
+[2021.10.27-13.35.13:146][523]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/PipeMat9C72063043819ED60083B4AA76CBE084.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/PipeMat.uasset'
+[2021.10.27-13.35.13:164][523]AssetCheck: New page: Asset Save: PipeMat
+[2021.10.27-13.35.13:164][523]LogContentValidation: Display: Validating Material /Game/Models/Tunnel/PipeMat.PipeMat
+[2021.10.27-13.35.13:164][523]MaterialEditorStats: Base pass shader: 127 instructions
+[2021.10.27-13.35.13:164][523]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2021.10.27-13.35.13:164][523]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.35.13:164][523]MaterialEditorStats: Texture samplers: 5/16
+[2021.10.27-13.35.13:164][523]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.35.13:165][523]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.35.22:269][ 69]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: EEE475F66DD886ECFA0F871B460A7A7803E6197D), compiling. 
+[2021.10.27-13.35.22:277][ 69]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A8277FAC9E5F56C714A8484F3BB62AC2FD33A8D1), compiling. 
+[2021.10.27-13.35.22:279][ 69]MaterialEditorStats: Texture samplers: 0/16
+[2021.10.27-13.35.22:279][ 69]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.35.22:279][ 69]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.35.22:286][ 70]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.22:292][ 71]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.22:294][ 71]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.35.22:296][ 71]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.35.22:296][ 71]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.10.27-13.35.22:296][ 71]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.10.27-13.35.22:296][ 71]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.22:296][ 71]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.22:935][109]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.10.27-13.35.22:935][109]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.23:066][116]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F4475C98C6ADBF6DEBDF4E3476146BC40DBE3229), compiling. 
+[2021.10.27-13.35.23:071][116]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5BABEBCE0A317747540041F79BAAB6084C18FC17), compiling. 
+[2021.10.27-13.35.23:085][117]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.23:096][118]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.23:217][122]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.10.27-13.35.23:217][122]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.23:637][145]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.10.27-13.35.23:637][145]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.24:142][173]LogMaterialEditor: Saving and Compiling material PipeMat
+[2021.10.27-13.35.24:615][173]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.10.27-13.35.24:615][173]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.24:615][173]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.10.27-13.35.24:615][173]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.24:636][173]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C1EEC58A8054218820B57311080F0123D8E28EC9), compiling. 
+[2021.10.27-13.35.24:683][173]LogMaterial: Display: Missing cached shadermap for PipeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 6537ECF765D2625FF3F0B44C6BB4F4EA6ECE993F), compiling. 
+[2021.10.27-13.35.24:741][173]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.24:741][173]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.10.27-13.35.24:741][173]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.24:741][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.10.27-13.35.24:750][173]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.25:764][173]LogShaderCompilers: Display: Submitted 13 shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.25:764][173]LogShaderCompilers: Display: Submitted 3 shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.25:764][173]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.10.27-13.35.25:764][173]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.25:764][173]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.10.27-13.35.25:764][173]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.25:764][173]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.10.27-13.35.25:764][173]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.10.27-13.35.25:764][173]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2021.10.27-13.35.25:764][173]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.25:764][173]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.10.27-13.35.25:764][173]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.25:832][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2021.10.27-13.35.26:078][173]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.10.27-13.35.26:078][173]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.26:078][173]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.10.27-13.35.26:078][173]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.27:325][173]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.10.27-13.35.27:325][173]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.27:325][173]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.10.27-13.35.27:325][173]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.27:533][173]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.10.27-13.35.27:533][173]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-13.35.28:119][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Tunnel/PipeMat" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/PipeMat.uasset" SILENT=true
+[2021.10.27-13.35.28:138][173]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/PipeMat7B7326A342910D64C2B307BD4A3F9E12.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/PipeMat.uasset'
+[2021.10.27-13.35.28:170][173]AssetCheck: New page: Asset Save: PipeMat
+[2021.10.27-13.35.28:170][173]LogContentValidation: Display: Validating Material /Game/Models/Tunnel/PipeMat.PipeMat
+[2021.10.27-13.35.28:172][173]MaterialEditorStats: Base pass shader: 127 instructions
+[2021.10.27-13.35.28:172][173]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2021.10.27-13.35.28:172][173]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.10.27-13.35.28:172][173]MaterialEditorStats: Texture samplers: 5/16
+[2021.10.27-13.35.28:172][173]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.10.27-13.35.28:172][173]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.27-13.36.10:384][680]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.36.10:400][680]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.10.27-13.36.10:400][680]LogPlayLevel: [PlayLevel] Compiling RatController before play...
+[2021.10.27-13.36.10:470][680]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2021.10.27-13.36.10:473][680]LogPlayLevel: PlayLevel: Blueprint regeneration took 72 ms (1 blueprints)
+[2021.10.27-13.36.10:473][680]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:36:10)
+[2021.10.27-13.36.10:473][680]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.36.10:477][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003411s)
+[2021.10.27-13.36.10:478][680]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.36.10:479][680]LogPlayLevel: PIE: World Init took: (0.002052s)
+[2021.10.27-13.36.10:479][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.005630s)
+[2021.10.27-13.36.10:514][680]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.10.27-13.36.10:514][680]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2021.10.27-13.36.10:514][680]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.36.10:514][680]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.36.10:514][680]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.36.10:514][680]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.36.10:514][680]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.36.10:514][680]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.36.10:514][680]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.36.10:514][680]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.36.10:515][680]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.36.10:515][680]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.36.10:515][680]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.36.10:515][680]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.36.10:553][680]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.36.10:553][680]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.36.10:646][680]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.36.10:646][680]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.36.10:646][680]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.36.10:646][680]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.36.10:647][680]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.36.10:647][680]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.36.10:647][680]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.36.10:649][680]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.36.10:649][680]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.36.10:649][680]LogInit: FAudioDevice initialized.
+[2021.10.27-13.36.10:649][680]LogAudio: Display: Audio Device (ID: 24) registered with world 'Endless_Runner'.
+[2021.10.27-13.36.10:658][680]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.36.10:660][680]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.36.10
+[2021.10.27-13.36.10:660][680]LogWorld: Bringing up level for play took: 0.000863
+[2021.10.27-13.36.10:661][680]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.10.27-13.36.10:663][680]PIE: Server logged in
+[2021.10.27-13.36.10:664][680]PIE: Play in editor total start time 0.264 seconds.
+[2021.10.27-13.36.26:188][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.36.26:188][607]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.36.26:188][607]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.36.26:189][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.36.26:201][607]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.36.26:208][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.36.26:240][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.36.26:240][607]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.36.26:241][607]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.36.26:250][607]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.10.27-13.36.26:283][608]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.10.27-13.36.59:631][587]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.36.59:648][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.36.59:648][587]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:36:59)
+[2021.10.27-13.36.59:648][587]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.36.59:651][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003325s)
+[2021.10.27-13.36.59:653][587]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.36.59:653][587]LogPlayLevel: PIE: World Init took: (0.002115s)
+[2021.10.27-13.36.59:654][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.005620s)
+[2021.10.27-13.36.59:690][587]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2021.10.27-13.36.59:693][587]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2021.10.27-13.36.59:693][587]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.36.59:693][587]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.36.59:693][587]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.36.59:693][587]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.36.59:693][587]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.36.59:693][587]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.36.59:693][587]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.36.59:693][587]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.36.59:694][587]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.36.59:694][587]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.36.59:694][587]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.36.59:694][587]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.36.59:696][587]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.36.59:696][587]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.36.59:779][587]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.36.59:779][587]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.36.59:780][587]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.36.59:780][587]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.36.59:780][587]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.36.59:780][587]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.36.59:780][587]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.36.59:781][587]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.36.59:781][587]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.36.59:781][587]LogInit: FAudioDevice initialized.
+[2021.10.27-13.36.59:782][587]LogAudio: Display: Audio Device (ID: 25) registered with world 'Endless_Runner'.
+[2021.10.27-13.36.59:793][587]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.36.59:795][587]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.36.59
+[2021.10.27-13.36.59:795][587]LogWorld: Bringing up level for play took: 0.000848
+[2021.10.27-13.36.59:795][587]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.10.27-13.36.59:798][587]PIE: Server logged in
+[2021.10.27-13.36.59:798][587]PIE: Play in editor total start time 0.151 seconds.
+[2021.10.27-13.37.08:298][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.37.08:298][ 92]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.37.08:298][ 92]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.37.08:299][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.37.08:308][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.37.08:319][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.37.08:351][ 92]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-13.37.08:351][ 92]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.37.08:352][ 92]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.37.08:356][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.37.08:360][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2021.10.27-13.37.08:410][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.10.27-13.37.30:227][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-13.37.30:331][357]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatController070F93604F6842D174E285914203315F.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-13.37.30:352][357]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-13.37.30:352][357]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-13.37.30:817][385]BlueprintLog: New page: Compile RatController
+[2021.10.27-13.37.30:882][385]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2021.10.27-13.37.34:150][573]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.10.27-13.37.34:335][573]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner76B63C2D4D7661B853788CBD17249A4D.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-13.37.34:379][573]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-13.37.34:379][573]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
