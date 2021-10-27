@@ -2062,3 +2062,774 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.27-13.07.31:144][424]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/CameraController783F3C494D79074FBDCC2081BF330EDD.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset'
 [2021.10.27-13.07.31:163][424]AssetCheck: New page: Asset Save: CameraController
 [2021.10.27-13.07.31:163][424]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraController.CameraController
+[2021.10.27-13.08.05:503][633]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.08.05:520][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.08.05:520][633]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:08:05)
+[2021.10.27-13.08.05:520][633]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.08.05:524][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003123s)
+[2021.10.27-13.08.05:526][633]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.08.05:527][633]LogPlayLevel: PIE: World Init took: (0.002844s)
+[2021.10.27-13.08.05:527][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.006222s)
+[2021.10.27-13.08.05:558][633]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.10.27-13.08.05:561][633]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.10.27-13.08.05:561][633]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.08.05:561][633]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.08.05:561][633]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.08.05:561][633]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.08.05:561][633]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.08.05:561][633]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.08.05:561][633]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.08.05:561][633]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.08.05:562][633]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.08.05:562][633]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.08.05:562][633]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.08.05:562][633]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.08.05:605][633]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.08.05:605][633]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.08.05:699][633]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.08.05:700][633]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.08.05:700][633]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.08.05:700][633]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.08.05:700][633]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.08.05:700][633]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.08.05:700][633]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.08.05:702][633]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.08.05:702][633]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.08.05:702][633]LogInit: FAudioDevice initialized.
+[2021.10.27-13.08.05:702][633]LogAudio: Display: Audio Device (ID: 14) registered with world 'Endless_Runner'.
+[2021.10.27-13.08.05:709][633]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.08.05:711][633]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.08.05
+[2021.10.27-13.08.05:711][633]LogWorld: Bringing up level for play took: 0.000975
+[2021.10.27-13.08.05:712][633]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.10.27-13.08.05:714][633]PIE: Server logged in
+[2021.10.27-13.08.05:715][633]PIE: Play in editor total start time 0.197 seconds.
+[2021.10.27-13.08.13:109][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.08.13:109][ 71]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.08.13:109][ 71]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.08.13:110][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.08.13:126][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.08.13:137][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.08.13:165][ 71]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-13.08.13:165][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.08.13:166][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.08.13:171][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.08.13:175][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.10.27-13.08.13:222][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.10.27-13.09.27:603][484]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.10.27-13.09.27:785][484]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner6CA9C6C74DE58ADDFD546BAA384C28EF.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-13.09.27:827][484]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-13.09.27:827][484]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-13.09.44:039][457]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.09.44:058][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.09.44:058][457]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:09:44)
+[2021.10.27-13.09.44:058][457]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.09.44:062][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003485s)
+[2021.10.27-13.09.44:063][457]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.09.44:063][457]LogPlayLevel: PIE: World Init took: (0.001306s)
+[2021.10.27-13.09.44:063][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004935s)
+[2021.10.27-13.09.44:093][457]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.10.27-13.09.44:095][457]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.10.27-13.09.44:095][457]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.09.44:095][457]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.09.44:095][457]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.09.44:095][457]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.09.44:095][457]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.09.44:095][457]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.09.44:095][457]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.09.44:095][457]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.09.44:096][457]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.09.44:096][457]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.09.44:096][457]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.09.44:096][457]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.09.44:130][457]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.09.44:130][457]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.09.44:217][457]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.09.44:217][457]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.09.44:217][457]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.09.44:217][457]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.09.44:217][457]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.09.44:217][457]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.09.44:217][457]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.09.44:219][457]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.09.44:219][457]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.09.44:219][457]LogInit: FAudioDevice initialized.
+[2021.10.27-13.09.44:219][457]LogAudio: Display: Audio Device (ID: 15) registered with world 'Endless_Runner'.
+[2021.10.27-13.09.44:226][457]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.09.44:227][457]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.09.44
+[2021.10.27-13.09.44:228][457]LogWorld: Bringing up level for play took: 0.001195
+[2021.10.27-13.09.44:228][457]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.10.27-13.09.44:230][457]PIE: Server logged in
+[2021.10.27-13.09.44:231][457]PIE: Play in editor total start time 0.174 seconds.
+[2021.10.27-13.09.53:229][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.09.53:229][975]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.09.53:229][975]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.09.53:230][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.09.53:244][975]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.09.53:254][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.09.53:281][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.09.53:281][975]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.09.53:282][975]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.09.53:289][975]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.10.27-13.09.53:344][976]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.10.27-13.10.55:485][501]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.10.55:502][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.10.55:502][501]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:10:55)
+[2021.10.27-13.10.55:502][501]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.10.55:507][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004948s)
+[2021.10.27-13.10.55:509][501]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.10.55:509][501]LogPlayLevel: PIE: World Init took: (0.001933s)
+[2021.10.27-13.10.55:509][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.007099s)
+[2021.10.27-13.10.55:544][501]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2021.10.27-13.10.55:547][501]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.10.27-13.10.55:547][501]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.10.55:547][501]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.10.55:547][501]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.10.55:547][501]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.10.55:547][501]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.10.55:547][501]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.10.55:547][501]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.10.55:547][501]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.10.55:547][501]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.10.55:548][501]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.10.55:548][501]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.10.55:548][501]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.10.55:551][501]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.10.55:551][501]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.10.55:644][501]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.10.55:645][501]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.10.55:645][501]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.10.55:645][501]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.10.55:645][501]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.10.55:645][501]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.10.55:645][501]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.10.55:647][501]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.10.55:647][501]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.10.55:647][501]LogInit: FAudioDevice initialized.
+[2021.10.27-13.10.55:647][501]LogAudio: Display: Audio Device (ID: 16) registered with world 'Endless_Runner'.
+[2021.10.27-13.10.55:657][501]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.10.55:659][501]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.10.55
+[2021.10.27-13.10.55:659][501]LogWorld: Bringing up level for play took: 0.000972
+[2021.10.27-13.10.55:659][501]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.10.27-13.10.55:662][501]PIE: Server logged in
+[2021.10.27-13.10.55:663][501]PIE: Play in editor total start time 0.163 seconds.
+[2021.10.27-13.11.10:859][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.11.10:859][385]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.11.10:859][385]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.11.10:859][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.11.10:872][385]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.11.10:877][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.11.10:904][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.11.10:905][385]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.11.10:906][385]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.11.10:929][385]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.10.27-13.11.10:959][386]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.10.27-13.12.40:769][449]EditorErrors: New page: Actor attachment
+[2021.10.27-13.13.20:872][770]Cmd: DELETE
+[2021.10.27-13.13.20:872][770]Cmd: ACTOR DELETE
+[2021.10.27-13.13.20:874][770]LogEditorActor: Deleted Actor: CameraController_C
+[2021.10.27-13.13.20:912][770]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.10.27-13.13.20:915][770]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2021.10.27-13.17.30:844][124]Cmd: DELETE
+[2021.10.27-13.17.30:844][124]Cmd: ACTOR DELETE
+[2021.10.27-13.17.30:846][124]LogEditorActor: Deleted Actor: CameraController_C
+[2021.10.27-13.17.30:928][124]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.10.27-13.17.30:931][124]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2021.10.27-13.17.39:431][586]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.17.39:450][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.17.39:450][586]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:17:39)
+[2021.10.27-13.17.39:450][586]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.17.39:454][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003578s)
+[2021.10.27-13.17.39:455][586]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.17.39:455][586]LogPlayLevel: PIE: World Init took: (0.001412s)
+[2021.10.27-13.17.39:455][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.005180s)
+[2021.10.27-13.17.39:485][586]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.10.27-13.17.39:487][586]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2021.10.27-13.17.39:487][586]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.17.39:487][586]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.17.39:487][586]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.17.39:487][586]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.17.39:487][586]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.17.39:487][586]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.17.39:487][586]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.17.39:487][586]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.17.39:488][586]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.17.39:488][586]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.17.39:488][586]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.17.39:488][586]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.17.39:519][586]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.17.39:519][586]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.17.39:611][586]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.17.39:611][586]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.17.39:611][586]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.17.39:611][586]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.17.39:612][586]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.17.39:612][586]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.17.39:612][586]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.17.39:613][586]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.17.39:613][586]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.17.39:613][586]LogInit: FAudioDevice initialized.
+[2021.10.27-13.17.39:613][586]LogAudio: Display: Audio Device (ID: 17) registered with world 'Endless_Runner'.
+[2021.10.27-13.17.39:626][586]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.17.39:629][586]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.17.39
+[2021.10.27-13.17.39:629][586]LogWorld: Bringing up level for play took: 0.001027
+[2021.10.27-13.17.39:629][586]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.10.27-13.17.39:631][586]PIE: Server logged in
+[2021.10.27-13.17.39:632][586]PIE: Play in editor total start time 0.184 seconds.
+[2021.10.27-13.17.42:409][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.17.42:409][748]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.17.42:410][748]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.17.42:410][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.17.42:423][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.17.42:467][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.17.42:494][748]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-13.17.42:494][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.17.42:496][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.17.42:499][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.17.42:503][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.10.27-13.17.42:565][749]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.10.27-13.17.49:114][ 97]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.17.49:131][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.17.49:131][ 97]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:17:49)
+[2021.10.27-13.17.49:132][ 97]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.17.49:135][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002893s)
+[2021.10.27-13.17.49:136][ 97]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.17.49:136][ 97]LogPlayLevel: PIE: World Init took: (0.001768s)
+[2021.10.27-13.17.49:137][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004855s)
+[2021.10.27-13.17.49:170][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.10.27-13.17.49:171][ 97]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.10.27-13.17.49:171][ 97]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.17.49:171][ 97]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.17.49:171][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.17.49:171][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.17.49:171][ 97]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.17.49:171][ 97]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.17.49:171][ 97]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.17.49:171][ 97]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.17.49:172][ 97]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.17.49:172][ 97]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.17.49:172][ 97]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.17.49:172][ 97]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.17.49:174][ 97]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.17.49:174][ 97]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.17.49:262][ 97]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.17.49:262][ 97]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.17.49:262][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.17.49:262][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.17.49:263][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.17.49:263][ 97]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.17.49:263][ 97]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.17.49:264][ 97]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.17.49:264][ 97]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.17.49:264][ 97]LogInit: FAudioDevice initialized.
+[2021.10.27-13.17.49:264][ 97]LogAudio: Display: Audio Device (ID: 18) registered with world 'Endless_Runner'.
+[2021.10.27-13.17.49:274][ 97]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.17.49:276][ 97]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.17.49
+[2021.10.27-13.17.49:276][ 97]LogWorld: Bringing up level for play took: 0.000961
+[2021.10.27-13.17.49:276][ 97]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.10.27-13.17.49:279][ 97]PIE: Server logged in
+[2021.10.27-13.17.49:280][ 97]PIE: Play in editor total start time 0.15 seconds.
+[2021.10.27-13.17.53:058][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.17.53:058][320]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.17.53:059][320]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.17.53:059][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.17.53:069][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.17.53:116][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.17.53:143][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.17.53:143][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.17.53:144][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.17.53:156][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.10.27-13.17.53:219][321]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.10.27-13.18.10:360][295]BlueprintLog: New page: Compile CameraController
+[2021.10.27-13.18.10:410][295]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2021.10.27-13.18.10:798][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset" SILENT=true
+[2021.10.27-13.18.10:869][317]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/CameraController6D3869DD43CEF8004CE0C1A3CE3F8257.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/CameraController.uasset'
+[2021.10.27-13.18.10:888][317]AssetCheck: New page: Asset Save: CameraController
+[2021.10.27-13.18.10:888][317]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraController.CameraController
+[2021.10.27-13.18.13:891][480]Cmd: DELETE
+[2021.10.27-13.18.13:891][480]Cmd: ACTOR DELETE
+[2021.10.27-13.18.13:893][480]LogEditorActor: Deleted Actor: Actor
+[2021.10.27-13.18.13:966][480]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.10.27-13.18.13:968][480]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2021.10.27-13.18.18:055][707]Cmd: DELETE
+[2021.10.27-13.18.18:055][707]Cmd: ACTOR DELETE
+[2021.10.27-13.18.18:057][707]LogEditorActor: Deleted Actor: CameraActor
+[2021.10.27-13.18.18:095][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.10.27-13.18.18:097][707]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2021.10.27-13.18.31:147][463]EditorErrors: New page: Actor attachment
+[2021.10.27-13.19.05:096][455]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.10.27-13.19.05:282][455]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner87C9DCF84B1A5D84BFC9D1A8B547FA21.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-13.19.05:324][455]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-13.19.05:324][455]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-13.19.06:511][525]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.19.06:527][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.19.06:527][525]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:19:06)
+[2021.10.27-13.19.06:557][525]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.19.06:560][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003041s)
+[2021.10.27-13.19.06:561][525]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.19.06:561][525]LogPlayLevel: PIE: World Init took: (0.001198s)
+[2021.10.27-13.19.06:561][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004405s)
+[2021.10.27-13.19.06:592][525]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.10.27-13.19.06:593][525]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.10.27-13.19.06:593][525]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.19.06:593][525]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.19.06:593][525]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.19.06:593][525]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.19.06:593][525]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.19.06:593][525]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.19.06:593][525]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.19.06:593][525]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.19.06:594][525]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.19.06:594][525]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.19.06:594][525]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.19.06:594][525]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.19.06:596][525]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.19.06:596][525]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.19.06:682][525]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.19.06:683][525]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.19.06:683][525]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.19.06:683][525]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.19.06:683][525]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.19.06:683][525]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.19.06:683][525]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.19.06:685][525]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.19.06:685][525]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.19.06:685][525]LogInit: FAudioDevice initialized.
+[2021.10.27-13.19.06:685][525]LogAudio: Display: Audio Device (ID: 19) registered with world 'Endless_Runner'.
+[2021.10.27-13.19.06:692][525]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.19.06:694][525]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.19.06
+[2021.10.27-13.19.06:694][525]LogWorld: Bringing up level for play took: 0.000836
+[2021.10.27-13.19.06:694][525]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.10.27-13.19.06:697][525]PIE: Server logged in
+[2021.10.27-13.19.06:697][525]PIE: Play in editor total start time 0.171 seconds.
+[2021.10.27-13.19.06:720][525]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:0044
+[2021.10.27-13.19.06:720][525]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:720][525]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:013C
+[2021.10.27-13.19.06:720][525]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:765][526]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:0044
+[2021.10.27-13.19.06:766][526]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:766][526]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:013C
+[2021.10.27-13.19.06:766][526]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:782][527]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:0044
+[2021.10.27-13.19.06:782][527]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:782][527]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:013C
+[2021.10.27-13.19.06:782][527]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:798][528]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:0044
+[2021.10.27-13.19.06:798][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:798][528]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:013C
+[2021.10.27-13.19.06:798][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:815][529]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:0044
+[2021.10.27-13.19.06:815][529]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:815][529]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:013C
+[2021.10.27-13.19.06:815][529]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:831][530]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:0044
+[2021.10.27-13.19.06:832][530]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:832][530]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:013C
+[2021.10.27-13.19.06:832][530]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:848][531]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:0044
+[2021.10.27-13.19.06:848][531]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:848][531]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:013C
+[2021.10.27-13.19.06:848][531]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:865][532]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:0044
+[2021.10.27-13.19.06:865][532]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:865][532]LogScript: Warning: Accessed None trying to read property target
+	CameraController_C /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner:PersistentLevel.CameraController_13
+	Function /Game/Blueprints/CameraController.CameraController_C:ExecuteUbergraph_CameraController:013C
+[2021.10.27-13.19.06:865][532]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:881][533]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:882][533]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:898][534]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:898][534]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:914][535]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:914][535]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:931][536]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:931][536]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:948][537]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:948][537]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:964][538]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:964][538]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:981][539]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:981][539]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.06:998][540]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.06:998][540]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:014][541]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:014][541]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:031][542]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:031][542]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:048][543]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:048][543]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:064][544]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:064][544]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:081][545]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:081][545]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:097][546]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:098][546]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:114][547]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:114][547]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:131][548]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:131][548]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:147][549]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:148][549]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:164][550]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:164][550]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:181][551]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:181][551]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:198][552]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:198][552]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:214][553]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:214][553]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:231][554]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:231][554]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:248][555]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:248][555]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:264][556]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:264][556]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:281][557]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:281][557]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:298][558]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:298][558]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:314][559]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:314][559]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:331][560]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:331][560]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:348][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:348][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:365][562]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:365][562]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:382][563]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:382][563]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:398][564]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:398][564]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:415][565]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:415][565]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:431][566]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:431][566]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:448][567]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:448][567]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:465][568]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:465][568]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:481][569]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:481][569]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:498][570]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:499][570]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:515][571]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:515][571]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:532][572]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:532][572]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:548][573]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:549][573]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:564][574]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:564][574]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:582][575]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:582][575]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:598][576]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:599][576]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:615][577]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:615][577]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:631][578]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:631][578]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:648][579]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:648][579]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:665][580]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:666][580]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:681][581]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:681][581]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:698][582]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:698][582]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:714][583]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:715][583]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:731][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:731][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:748][585]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:748][585]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:765][586]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:765][586]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:781][587]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:781][587]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:798][588]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:798][588]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:815][589]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:815][589]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:831][590]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:831][590]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:847][591]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:848][591]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:866][592]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:866][592]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:881][593]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:881][593]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:898][594]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:898][594]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:915][595]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:915][595]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:931][596]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:931][596]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:948][597]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:948][597]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:965][598]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:965][598]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:981][599]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:981][599]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.07:998][600]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.07:998][600]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.08:014][601]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.08:015][601]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.08:114][607]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  AddActorLocalOffset
+[2021.10.27-13.19.08:115][607]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  CameraController Function:  Execute Ubergraph Camera Controller Graph:  EventGraph Node:  SetActorRotation
+[2021.10.27-13.19.08:158][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.19.08:158][607]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.19.08:158][607]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.19.08:158][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.19.08:173][607]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.19.08:177][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.19.08:204][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.19.08:205][607]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.19.08:206][607]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.19.08:214][607]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.10.27-13.19.08:377][608]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.10.27-13.19.11:962][815]LogSlate: Window 'Message Log' being destroyed
+[2021.10.27-13.19.11:968][815]LogSlate: Window 'Message Log' being destroyed
+[2021.10.27-13.19.21:212][326]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.19.21:231][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.19.21:231][326]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:19:21)
+[2021.10.27-13.19.21:231][326]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.19.21:235][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003593s)
+[2021.10.27-13.19.21:236][326]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.19.21:236][326]LogPlayLevel: PIE: World Init took: (0.001376s)
+[2021.10.27-13.19.21:236][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.005140s)
+[2021.10.27-13.19.21:267][326]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.10.27-13.19.21:268][326]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.10.27-13.19.21:268][326]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.19.21:268][326]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.19.21:268][326]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.19.21:268][326]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.19.21:268][326]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.19.21:268][326]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.19.21:268][326]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.19.21:268][326]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.19.21:268][326]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.19.21:268][326]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.19.21:268][326]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.19.21:268][326]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.19.21:271][326]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.19.21:271][326]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.19.21:363][326]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.19.21:363][326]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.19.21:363][326]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.19.21:363][326]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.19.21:364][326]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.19.21:364][326]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.19.21:364][326]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.19.21:365][326]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.19.21:365][326]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.19.21:365][326]LogInit: FAudioDevice initialized.
+[2021.10.27-13.19.21:365][326]LogAudio: Display: Audio Device (ID: 20) registered with world 'Endless_Runner'.
+[2021.10.27-13.19.21:379][326]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.19.21:381][326]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.19.21
+[2021.10.27-13.19.21:381][326]LogWorld: Bringing up level for play took: 0.001001
+[2021.10.27-13.19.21:381][326]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.10.27-13.19.21:384][326]PIE: Server logged in
+[2021.10.27-13.19.21:385][326]PIE: Play in editor total start time 0.155 seconds.
+[2021.10.27-13.19.24:759][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.19.24:759][523]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.19.24:759][523]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.19.24:759][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.19.24:770][523]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.19.24:780][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.19.24:808][523]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-13.19.24:808][523]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.19.24:809][523]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.19.24:813][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.19.24:816][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.10.27-13.19.24:865][524]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.10.27-13.19.30:027][807]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.19.30:043][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.19.30:043][807]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:19:30)
+[2021.10.27-13.19.30:043][807]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.19.30:047][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003672s)
+[2021.10.27-13.19.30:048][807]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.19.30:048][807]LogPlayLevel: PIE: World Init took: (0.001623s)
+[2021.10.27-13.19.30:048][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.005456s)
+[2021.10.27-13.19.30:079][807]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.10.27-13.19.30:081][807]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2021.10.27-13.19.30:081][807]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.19.30:081][807]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.19.30:081][807]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.19.30:081][807]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.19.30:081][807]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.19.30:081][807]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.19.30:081][807]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.19.30:081][807]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.19.30:082][807]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.19.30:082][807]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.19.30:082][807]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.19.30:082][807]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.19.30:119][807]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.19.30:119][807]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.19.30:206][807]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.19.30:206][807]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.19.30:206][807]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.19.30:207][807]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.19.30:207][807]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.19.30:207][807]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.19.30:207][807]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.19.30:209][807]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.19.30:209][807]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.19.30:209][807]LogInit: FAudioDevice initialized.
+[2021.10.27-13.19.30:209][807]LogAudio: Display: Audio Device (ID: 21) registered with world 'Endless_Runner'.
+[2021.10.27-13.19.30:217][807]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.19.30:219][807]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.19.30
+[2021.10.27-13.19.30:219][807]LogWorld: Bringing up level for play took: 0.000957
+[2021.10.27-13.19.30:219][807]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.10.27-13.19.30:222][807]PIE: Server logged in
+[2021.10.27-13.19.30:223][807]PIE: Play in editor total start time 0.18 seconds.
+[2021.10.27-13.19.43:419][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.19.43:419][593]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.19.43:419][593]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.19.43:419][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.19.43:427][593]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.19.43:477][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.19.43:504][593]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-13.19.43:504][593]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.19.43:505][593]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.19.43:525][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.19.43:529][593]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.10.27-13.19.43:595][594]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.10.27-13.20.31:111][323]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.20.31:128][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.20.31:128][323]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:20:31)
+[2021.10.27-13.20.31:167][323]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.20.31:171][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003122s)
+[2021.10.27-13.20.31:173][323]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.20.31:173][323]LogPlayLevel: PIE: World Init took: (0.002341s)
+[2021.10.27-13.20.31:173][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.005708s)
+[2021.10.27-13.20.31:205][323]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.10.27-13.20.31:208][323]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.10.27-13.20.31:209][323]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.20.31:209][323]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.20.31:209][323]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.20.31:209][323]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.20.31:209][323]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.20.31:209][323]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.20.31:209][323]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.20.31:209][323]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.20.31:209][323]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.20.31:209][323]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.20.31:209][323]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.20.31:209][323]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.20.31:212][323]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.20.31:212][323]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.20.31:300][323]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.20.31:301][323]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.20.31:301][323]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.20.31:301][323]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.20.31:301][323]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.20.31:301][323]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.20.31:301][323]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.20.31:302][323]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.20.31:302][323]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.20.31:303][323]LogInit: FAudioDevice initialized.
+[2021.10.27-13.20.31:303][323]LogAudio: Display: Audio Device (ID: 22) registered with world 'Endless_Runner'.
+[2021.10.27-13.20.31:315][323]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.20.31:316][323]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.20.31
+[2021.10.27-13.20.31:317][323]LogWorld: Bringing up level for play took: 0.000957
+[2021.10.27-13.20.31:317][323]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.10.27-13.20.31:320][323]PIE: Server logged in
+[2021.10.27-13.20.31:321][323]PIE: Play in editor total start time 0.194 seconds.
+[2021.10.27-13.20.57:758][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.20.57:758][903]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.20.57:759][903]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.20.57:759][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.20.57:770][903]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.20.57:780][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.20.57:807][903]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-13.20.57:807][903]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.20.57:809][903]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.20.57:812][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.20.57:816][903]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.10.27-13.20.57:863][904]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.10.27-13.21.20:443][226]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2021.10.27-13.21.20:631][226]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner1F18734745272B393A3E9EAEBBC71C1A.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-13.21.20:672][226]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-13.21.20:672][226]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-13.21.21:144][252]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.21.21:160][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.21.21:160][252]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:21:21)
+[2021.10.27-13.21.21:161][252]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.21.21:164][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002950s)
+[2021.10.27-13.21.21:165][252]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.21.21:165][252]LogPlayLevel: PIE: World Init took: (0.001787s)
+[2021.10.27-13.21.21:165][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004900s)
+[2021.10.27-13.21.21:195][252]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2021.10.27-13.21.21:195][252]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2021.10.27-13.21.21:195][252]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.21.21:195][252]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.21.21:195][252]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.21.21:195][252]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.21.21:195][252]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.21.21:195][252]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.21.21:195][252]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.21.21:195][252]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.21.21:196][252]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.21.21:196][252]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.21.21:196][252]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.21.21:196][252]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.21.21:199][252]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.21.21:199][252]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.21.21:282][252]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.21.21:282][252]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.21.21:282][252]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.21.21:282][252]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.21.21:282][252]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.21.21:282][252]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.21.21:282][252]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.21.21:284][252]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.21.21:284][252]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.21.21:284][252]LogInit: FAudioDevice initialized.
+[2021.10.27-13.21.21:284][252]LogAudio: Display: Audio Device (ID: 23) registered with world 'Endless_Runner'.
+[2021.10.27-13.21.21:297][252]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.21.21:299][252]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.21.21
+[2021.10.27-13.21.21:299][252]LogWorld: Bringing up level for play took: 0.000986
+[2021.10.27-13.21.21:300][252]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.10.27-13.21.21:302][252]PIE: Server logged in
+[2021.10.27-13.21.21:303][252]PIE: Play in editor total start time 0.143 seconds.
+[2021.10.27-13.21.25:358][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.21.25:358][492]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.21.25:359][492]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.21.25:359][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.21.25:369][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.21.25:380][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.21.25:406][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.21.25:406][492]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.21.25:408][492]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.21.25:415][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.10.27-13.21.25:459][493]LogPlayLevel: Display: Destroying online subsystem :Context_34
