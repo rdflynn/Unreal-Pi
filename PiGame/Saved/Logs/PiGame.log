@@ -1857,3 +1857,19 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.27-12.53.47:824][874]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
 [2021.10.27-12.53.49:776][981]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 179
 [2021.10.27-12.53.49:776][981]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.51:383][ 61]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 169
+[2021.10.27-12.53.51:383][ 61]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.53:939][170]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 159
+[2021.10.27-12.53.53:940][170]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.56:187][289]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 149
+[2021.10.27-12.53.56:187][289]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.56:802][322]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 139
+[2021.10.27-12.53.56:802][322]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.53.57:938][385]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 129
+[2021.10.27-12.53.57:938][385]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.54.01:525][581]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 119
+[2021.10.27-12.54.01:525][581]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.54.01:775][595]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 109
+[2021.10.27-12.54.01:775][595]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2021.10.27-12.54.03:039][664]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 99
+[2021.10.27-12.54.03:039][664]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
