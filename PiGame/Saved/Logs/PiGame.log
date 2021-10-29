@@ -3713,3 +3713,195 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.27-13.37.34:335][573]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner76B63C2D4D7661B853788CBD17249A4D.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
 [2021.10.27-13.37.34:379][573]AssetCheck: New page: Asset Save: Endless_Runner
 [2021.10.27-13.37.34:379][573]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-13.37.56:844][696]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.37.56:861][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.37.56:861][696]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:37:56)
+[2021.10.27-13.37.56:861][696]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.37.56:864][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003004s)
+[2021.10.27-13.37.56:865][696]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.37.56:865][696]LogPlayLevel: PIE: World Init took: (0.001557s)
+[2021.10.27-13.37.56:866][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004725s)
+[2021.10.27-13.37.56:902][696]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2021.10.27-13.37.56:903][696]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2021.10.27-13.37.56:903][696]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.37.56:903][696]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.37.56:903][696]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.37.56:903][696]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.37.56:903][696]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.37.56:903][696]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.37.56:903][696]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.37.56:903][696]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.37.56:904][696]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.37.56:904][696]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.37.56:904][696]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.37.56:904][696]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.37.56:907][696]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.37.56:907][696]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.37.56:999][696]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.37.56:999][696]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.37.56:999][696]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.37.56:999][696]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.37.56:999][696]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.37.56:999][696]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.37.56:999][696]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.37.57:001][696]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.37.57:001][696]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.37.57:001][696]LogInit: FAudioDevice initialized.
+[2021.10.27-13.37.57:001][696]LogAudio: Display: Audio Device (ID: 26) registered with world 'Endless_Runner'.
+[2021.10.27-13.37.57:011][696]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.37.57:013][696]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.37.57
+[2021.10.27-13.37.57:013][696]LogWorld: Bringing up level for play took: 0.000871
+[2021.10.27-13.37.57:013][696]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2021.10.27-13.37.57:015][696]PIE: Server logged in
+[2021.10.27-13.37.57:016][696]PIE: Play in editor total start time 0.156 seconds.
+[2021.10.27-13.38.08:228][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.38.08:228][362]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.38.08:228][362]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.38.08:228][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.38.08:239][362]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.38.08:250][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.38.08:282][362]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-13.38.08:282][362]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.38.08:283][362]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.38.08:296][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.38.08:310][362]LogUObjectHash: Compacting FUObjectHashTables data took  12.85ms
+[2021.10.27-13.38.08:371][363]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2021.10.27-13.38.10:804][506]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.38.10:804][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.47.46:455][ 40]BlueprintLog: New page: Compile RatController
+[2021.10.27-13.47.46:531][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2021.10.27-13.47.47:018][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-13.47.47:116][ 64]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatControllerF6DE348E48CE23BAA42965BB7284F144.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-13.47.47:137][ 64]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-13.47.47:137][ 64]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-13.47.49:361][191]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2021.10.27-13.47.49:544][191]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_RunnerB4E3B6EE47CACACDBF1698A8292D30D4.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-13.47.49:591][191]AssetCheck: New page: Asset Save: Endless_Runner
+[2021.10.27-13.47.49:591][191]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-13.47.50:155][225]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.27-13.47.50:172][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-13.47.50:172][225]PIE: New page: PIE session: Endless_Runner (27 Oct 2021, 15:47:50)
+[2021.10.27-13.47.50:207][225]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.47.50:210][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003260s)
+[2021.10.27-13.47.50:210][225]LogAIModule: Creating AISystem for world Endless_Runner
+[2021.10.27-13.47.50:211][225]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2021.10.27-13.47.50:211][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Endless_Runner.Endless_Runner to /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner (0.004840s)
+[2021.10.27-13.47.50:246][225]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.10.27-13.47.50:247][225]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2021.10.27-13.47.50:247][225]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-13.47.50:247][225]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-13.47.50:247][225]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-13.47.50:247][225]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-13.47.50:247][225]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.27-13.47.50:247][225]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.27-13.47.50:247][225]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.27-13.47.50:247][225]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-13.47.50:248][225]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.27-13.47.50:248][225]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.27-13.47.50:248][225]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-13.47.50:248][225]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-13.47.50:289][225]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-13.47.50:289][225]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-13.47.50:403][225]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.10.27-13.47.50:403][225]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-13.47.50:403][225]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-13.47.50:403][225]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-13.47.50:404][225]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-13.47.50:404][225]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-13.47.50:404][225]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-13.47.50:405][225]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-13.47.50:405][225]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-13.47.50:405][225]LogInit: FAudioDevice initialized.
+[2021.10.27-13.47.50:406][225]LogAudio: Display: Audio Device (ID: 27) registered with world 'Endless_Runner'.
+[2021.10.27-13.47.50:416][225]LogLoad: Game class is 'GameModeBase'
+[2021.10.27-13.47.50:417][225]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Endless_Runner.Endless_Runner up for play (max tick rate 60) at 2021.10.27-14.47.50
+[2021.10.27-13.47.50:418][225]LogWorld: Bringing up level for play took: 0.000889
+[2021.10.27-13.47.50:418][225]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2021.10.27-13.47.50:420][225]PIE: Server logged in
+[2021.10.27-13.47.50:421][225]PIE: Play in editor total start time 0.251 seconds.
+[2021.10.27-13.47.56:377][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.47.56:377][577]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Endless_Runner
+[2021.10.27-13.47.56:377][577]LogWorld: UWorld::CleanupWorld for Endless_Runner, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.47.56:378][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.47.56:397][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-13.47.56:407][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.47.56:440][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-13.47.56:440][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.47.56:441][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.47.56:449][577]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.10.27-13.47.56:492][578]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2021.10.27-13.53.06:214][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-13.53.06:325][239]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatController1284B58447F3044E42A4D39C506BBEDD.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-13.53.06:349][239]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-13.53.06:349][239]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-13.53.06:719][261]BlueprintLog: New page: Compile RatController
+[2021.10.27-13.53.06:793][261]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2021.10.27-13.53.37:813][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.27-13.53.37:917][995]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatControllerDFD786674FA21D5A8D74BCA45D3DEAA2.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.27-13.53.37:935][995]AssetCheck: New page: Asset Save: RatController
+[2021.10.27-13.53.37:935][995]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/RatController.RatController
+[2021.10.27-13.53.45:986][207]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2021.10.27-13.53.47:818][207]LogSlate: Window 'Save Content' being destroyed
+[2021.10.27-13.53.47:885][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.10.27-13.53.48:069][207]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Endless_Runner74A8B227433A70038200B5935FD32FBB.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Endless_Runner.umap'
+[2021.10.27-13.53.48:097][207]LogFileHelpers: Saving map 'Endless_Runner' took 0.245
+[2021.10.27-13.53.48:097][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Tunnel/Pipe" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/Pipe.uasset" SILENT=true
+[2021.10.27-13.53.48:126][207]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/PipeCB1AC6EE4A78D91BBD54EE9B4943AD37.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/Pipe.uasset'
+[2021.10.27-13.53.48:240][207]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/sewer_obj_INSIDE_sewer_AlbedoDB3C5E0B4A6A49B4977655B3C0B3EF9A.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/sewer_obj_INSIDE_sewer_Albedo.uasset'
+[2021.10.27-13.53.48:392][207]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/sewer_obj_INSIDE_sewer_NormalE5A036474C2BA11A2115FE8EB3D0D1DC.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/sewer_obj_INSIDE_sewer_Normal.uasset'
+[2021.10.27-13.53.48:495][207]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.53.48:495][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.53.48:627][207]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.27-13.53.48:627][207]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.53.48:627][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-13.53.48:807][207]LogSlate: Window 'PiGame - Unreal Editor' being destroyed
+[2021.10.27-13.53.49:423][207]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.27-13.53.49:423][207]LogContentValidation: Display: Validating World /Game/Levels/Endless_Runner.Endless_Runner
+[2021.10.27-13.53.49:423][207]LogContentValidation: Display: Validating StaticMesh /Game/Models/Tunnel/Pipe.Pipe
+[2021.10.27-13.53.49:423][207]LogContentValidation: Display: Validating Texture2D /Game/Models/Tunnel/sewer_obj_INSIDE_sewer_Normal.sewer_obj_INSIDE_sewer_Normal
+[2021.10.27-13.53.49:423][207]LogContentValidation: Display: Validating Texture2D /Game/Models/Tunnel/sewer_obj_INSIDE_sewer_Albedo.sewer_obj_INSIDE_sewer_Albedo
+[2021.10.27-13.53.49:424][208]Cmd: QUIT_EDITOR
+[2021.10.27-13.53.49:424][208]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.10.27-13.53.49:510][208]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.10.27-13.53.50:083][208]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2021.10.27-13.53.50:083][208]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2021.10.27-13.53.50:083][208]LogAudio: Display: Audio Device unregistered from world 'Endless_Runner'.
+[2021.10.27-13.53.50:083][208]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.53.50:085][208]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-13.53.50:129][208]LogAudio: Display: Audio Device Manager Shutdown
+[2021.10.27-13.53.50:130][208]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.10.27-13.53.50:176][208]LogExit: Preparing to exit.
+[2021.10.27-13.53.50:900][208]LogUObjectHash: Compacting FUObjectHashTables data took   6.15ms
+[2021.10.27-13.53.52:945][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:945][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:945][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:945][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:945][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:945][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:945][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:945][208]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.53.52:949][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:949][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:949][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:949][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:949][208]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.53.52:953][208]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.53.52:957][208]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.53.52:960][208]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.53.52:964][208]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.53.52:967][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:967][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:967][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:967][208]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-13.53.52:967][208]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.53.53:555][208]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.10.27-13.53.54:832][208]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-13.53.54:832][208]LogExit: Editor shut down
+[2021.10.27-13.53.54:834][208]LogExit: Transaction tracking system shut down
+[2021.10.27-13.53.58:493][208]LogExit: Object subsystem successfully closed.
+[2021.10.27-13.53.58:515][208]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.10.27-13.53.58:515][208]LogShaderCompilers: Display: Total job queries 1365, among them cache hits 251 (18.39%)
+[2021.10.27-13.53.58:515][208]LogShaderCompilers: Display: Tracking 676 distinct input hashes that result in 112 distinct outputs (16.57%)
+[2021.10.27-13.53.58:515][208]LogShaderCompilers: Display: RAM used: 0.69 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.08%
+[2021.10.27-13.53.58:515][208]LogShaderCompilers: Display: ================================================
+[2021.10.27-13.53.58:690][208]LogShaderCompilers: Display: Shaders left to compile 0
