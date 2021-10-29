@@ -15606,3 +15606,11 @@ Script Stack (0 frames):
 [2021.10.29-23.54.21:472][683]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
 [2021.10.29-23.54.21:487][683]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
 [2021.10.29-23.54.21:488][683]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.10.29-23.54.21:503][683]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.10.29-23.54.21:517][683]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.10.29-23.54.21:517][683]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.10.29-23.54.21:517][683]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.10.29-23.54.21:540][683]LogD3D11RHI: Shutdown
+[2021.10.29-23.54.21:540][683]LogD3D11RHI: CleanupD3DDevice
+[2021.10.29-23.54.21:611][683]LogExit: Exiting.
+[2021.10.29-23.54.21:625][683]Log file closed, 10/30/21 00:54:21
