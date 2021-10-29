@@ -15121,3 +15121,38 @@ Script Stack (0 frames):
 [2021.10.29-23.51.59:557][134]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
 [2021.10.29-23.51.59:608][135]LogPlayLevel: Display: Destroying online subsystem :Context_49
 [2021.10.29-23.52.04:037][400]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.10.29-23.54.04:121][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.29-23.54.04:152][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.10.29-23.54.04:292][609]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level12B486C0A443F6C53B228AEB36EC04339.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1.umap'
+[2021.10.29-23.54.04:322][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2021.10.29-23.54.04:361][609]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level1_BuiltData487CEC78409644C3E1DD288C27ACDC04.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1_BuiltData.uasset'
+[2021.10.29-23.54.04:380][609]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.29-23.54.04:381][609]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2021.10.29-23.54.04:381][609]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2021.10.29-23.54.05:628][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.10.29-23.54.05:711][682]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-23.54.05:711][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-23.54.05:770][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.29-23.54.05:770][682]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-23.54.05:770][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.29-23.54.05:925][682]LogSlate: Window 'PiGame - Unreal Editor' being destroyed
+[2021.10.29-23.54.06:551][683]Cmd: QUIT_EDITOR
+[2021.10.29-23.54.06:551][683]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.10.29-23.54.06:640][683]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.10.29-23.54.07:502][683]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2021.10.29-23.54.07:502][683]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2021.10.29-23.54.07:502][683]LogAudio: Display: Audio Device unregistered from world 'Level1'.
+[2021.10.29-23.54.07:502][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-23.54.07:503][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.29-23.54.07:514][683]LogAudio: Display: Audio Device Manager Shutdown
+[2021.10.29-23.54.07:536][683]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.10.29-23.54.07:584][683]LogExit: Preparing to exit.
+[2021.10.29-23.54.08:362][683]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.10.29-23.54.09:208][683]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-23.54.09:211][683]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-23.54.09:214][683]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-23.54.09:217][683]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-23.54.09:495][683]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.10.29-23.54.10:040][683]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.10.29-23.54.10:040][683]LogExit: Editor shut down
+[2021.10.29-23.54.10:040][683]LogExit: Transaction tracking system shut down
