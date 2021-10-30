@@ -15006,3 +15006,50 @@ CameraController
 [2021.10.30-21.34.01:581][986]AssetCheck: New page: Asset Save: multiple assets
 [2021.10.30-21.34.01:581][986]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
 [2021.10.30-21.34.01:581][986]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2021.10.30-21.34.53:839][968]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-21.34.53:839][968]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-21.34.55:833][ 72]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.30-21.34.55:833][ 72]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-21.34.55:833][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-21.35.03:429][496]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2021.10.30-21.35.05:777][496]LogSlate: Window 'Delete Assets' being destroyed
+[2021.10.30-21.35.05:913][496]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/Rat.Rat
+[2021.10.30-21.35.10:977][496]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2021.10.30-21.35.11:064][496]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2021.10.30-21.35.11:099][496]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.10.30-21.35.11:131][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2021.10.30-21.35.25:575][353]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2021.10.30-21.35.39:447][353]LogSlate: Window 'Replace References?' being destroyed
+[2021.10.30-21.35.39:453][353]Message dialog closed, result: Ok, title: Replace References?, text: This will replace any reference to the pending deleted assets with RatController1; and then delete them.
+
+Are you sure?
+[2021.10.30-21.35.39:453][353]LogSlate: Window 'Delete Assets' being destroyed
+[2021.10.30-21.35.39:522][353]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.30-21.35.39:522][353]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-21.35.39:522][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-21.35.39:664][353]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.10.30-21.35.39:664][353]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.10.30-21.35.39:664][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.30-21.35.40:597][353]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2021.10.30-21.35.40:759][353]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2021.10.30-21.35.41:228][353]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2021.10.30-21.35.43:761][353]LogSlate: Window 'Save Content' being destroyed
+[2021.10.30-21.35.43:798][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RatController" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset" SILENT=true
+[2021.10.30-21.35.43:806][353]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/RatController0BA4653846EDA66A70DAD5BDA1F6A047.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/RatController.uasset'
+[2021.10.30-21.35.43:824][353]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.30-21.35.43:824][353]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/RatController.Default__RatController_C
+[2021.10.30-21.35.43:824][353]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/RatController.RatController_C
+[2021.10.30-21.35.43:824][353]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/RatController.RatController
+[2021.10.30-21.35.52:914][885]LogContentBrowser: Attempting asset rename: RatController1 -> RatController1
+[2021.10.30-21.35.55:299][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.30-21.35.55:318][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.10.30-21.35.55:460][ 27]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level1F11A1B064DAA8A5798C1EB8B8B9B42FE.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1.umap'
+[2021.10.30-21.35.55:490][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2021.10.30-21.35.55:530][ 27]LogSavePackage: Moving 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level1_BuiltData9F95BAF8407540CC2DC0F987FE64D08D.tmp' to 'E:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1_BuiltData.uasset'
+[2021.10.30-21.35.55:546][ 27]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.30-21.35.55:546][ 27]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2021.10.30-21.35.55:546][ 27]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2021.10.30-21.35.56:799][101]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/RatController1.RatController1
+[2021.10.30-21.35.59:844][233]LogSlate: Window 'RatController1' being destroyed
+[2021.10.30-21.36.06:999][644]LogContentBrowser: Attempting asset rename: RatController1 -> RatController1
