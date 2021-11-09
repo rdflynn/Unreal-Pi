@@ -1057,3 +1057,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.09-14.12.55:623][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.11.09-14.12.55:624][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
 [2021.11.09-14.12.55:680][781]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.11.09-14.14.58:203][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.09-14.14.58:207][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.11.09-14.14.58:453][ 27]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level1BC03215E4FFA517A4482C1A3D5B5288A.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1.umap'
+[2021.11.09-14.14.58:490][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2021.11.09-14.14.58:737][ 27]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level1_BuiltData6F53C6BB4836BFE6A898968FE3030CCF.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1_BuiltData.uasset'
+[2021.11.09-14.14.58:750][ 27]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.09-14.14.58:750][ 27]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2021.11.09-14.14.58:750][ 27]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
