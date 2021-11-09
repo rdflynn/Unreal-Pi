@@ -1095,3 +1095,55 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.09-14.25.00:040][344]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/sewer_tunnel_1BF31E6B04F6B75DFEC1CFC87BE13B097.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/sewer_tunnel_1.uasset'
 [2021.11.09-14.25.00:053][344]AssetCheck: New page: Asset Save: sewer_tunnel_1
 [2021.11.09-14.25.00:054][344]LogContentValidation: Display: Validating StaticMesh /Game/Models/Tunnel/sewer_tunnel_1.sewer_tunnel_1
+[2021.11.09-14.26.06:185][667]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.11.09-14.26.06:190][667]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.11.09-14.26.06:200][667]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.11.09-14.26.13:870][588]LogContentBrowser: Attempting asset rename: NewBlueprint -> PipeSpline
+[2021.11.09-14.26.13:874][588]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.11.09-14.26.21:290][729]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PipeSpline.PipeSpline
+[2021.11.09-14.36.57:864][ 39]BlueprintLog: New page: Compile PipeSpline
+[2021.11.09-14.36.57:871][ 39]LogMaterial: Display: Material /Game/Models/Tunnel/SewerTunnel.SewerTunnel needed to have new flag set bUsedWithSplineMeshes !
+[2021.11.09-14.36.57:873][ 39]LogMaterial: Display: Missing cached shadermap for SewerTunnel in PCD3D_SM5, Default, SM5 (DDC key hash: 566CE02564423D59357A55EC2A1E17FAD1FD1C31), compiling. 
+[2021.11.09-14.36.57:926][ 39]LogShaderCompilers: Display: Submitted 50 shader compile jobs with 'Low' priority
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 50
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 46
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 42
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 38
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 34
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 30
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 26
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 22
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 18
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 14
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 10
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 6
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 2
+[2021.11.09-14.36.57:992][ 39]LogShaderCompilers: Display: Started 50 'Local' shader compile jobs with 'Low' priority
+[2021.11.09-14.36.58:048][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   7.61ms
+[2021.11.09-14.36.58:928][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PipeSpline" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset" SILENT=true
+[2021.11.09-14.36.59:053][100]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/PipeSpline20F7A99D4796B0F480517FA53E0EE59E.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset'
+[2021.11.09-14.36.59:103][100]AssetCheck: New page: Asset Save: PipeSpline
+[2021.11.09-14.36.59:103][100]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PipeSpline.PipeSpline
+[2021.11.09-14.36.59:400][117]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.11.09-14.36.59:400][117]LogShaderCompilers: Display: Total job queries 50, among them cache hits 0 (0.00%)
+[2021.11.09-14.36.59:400][117]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2021.11.09-14.36.59:400][117]LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.00%
+[2021.11.09-14.36.59:400][117]LogShaderCompilers: Display: ================================================
+[2021.11.09-14.36.59:678][138]BlueprintLog: New page: Compile PipeSpline
+[2021.11.09-14.36.59:790][138]LogUObjectHash: Compacting FUObjectHashTables data took   7.20ms
+[2021.11.09-14.37.24:791][279]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2021.11.09-14.37.24:792][279]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level1' took 0.031
+[2021.11.09-14.37.24:792][279]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Tunnel/SewerTunnel] ([1] browsable assets)...
+[2021.11.09-14.37.24:799][279]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Tunnel/SewerTunnel.SewerTunnel]
+[2021.11.09-14.37.24:799][279]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Tunnel/SewerTunnel]
+[2021.11.09-14.37.24:816][279]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/SewerTunnel_Auto170A441854004024F12666C988DDB20AD.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Autosaves/Game/Models/Tunnel/SewerTunnel_Auto1.uasset'
+[2021.11.09-14.37.24:817][279]LogFileHelpers: Auto-saving content packages took 0.025
+[2021.11.09-14.38.51:997][188]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.09-14.38.53:241][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.09-14.38.53:284][331]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.11.09-14.38.53:711][331]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level1B2DF07744DB3F2FD0158D2AE3F1D3E43.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1.umap'
+[2021.11.09-14.38.53:745][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2021.11.09-14.38.53:988][331]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level1_BuiltDataB118ACCE4128AAF99BC6F69252FBDE77.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1_BuiltData.uasset'
+[2021.11.09-14.38.54:007][331]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.09-14.38.54:007][331]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2021.11.09-14.38.54:007][331]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
