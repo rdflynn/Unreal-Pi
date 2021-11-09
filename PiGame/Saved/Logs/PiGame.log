@@ -1065,3 +1065,33 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.09-14.14.58:750][ 27]AssetCheck: New page: Asset Save: multiple assets
 [2021.11.09-14.14.58:750][ 27]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
 [2021.11.09-14.14.58:750][ 27]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2021.11.09-14.16.31:619][386]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Rat.Rat
+[2021.11.09-14.16.31:761][386]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.11.09-14.16.32:451][386]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.11.09-14.18.08:435][674]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/Tunnel/sewer_tunnel.sewer_tunnel
+[2021.11.09-14.18.08:471][674]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2021.11.09-14.18.08:546][674]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2021.11.09-14.18.09:090][675]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2021.11.09-14.23.47:388][290]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 L:\Uni\1288 - Advanced Games Design and Development\sewer_tunnel_1.fbx)
+[2021.11.09-14.23.47:394][290]LogFbx: Loading FBX Scene from L:\Uni\1288 - Advanced Games Design and Development\sewer_tunnel_1.fbx
+[2021.11.09-14.23.47:400][290]LogFbx: FBX Scene Loaded Succesfully
+[2021.11.09-14.23.57:973][290]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.11.09-14.23.57:997][290]LogFbx: Display: Triangulating static mesh Cylinder.001
+[2021.11.09-14.23.58:035][290]LogStaticMesh: Building static mesh sewer_tunnel_1...
+[2021.11.09-14.23.58:051][290]LogStaticMesh: Built static mesh [0.02s] /Game/Models/Tunnel/sewer_tunnel_1.sewer_tunnel_1
+[2021.11.09-14.23.58:069][290]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.11.09-14.23.58:188][290]LogSlate: Took 0.006686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.11.09-14.24.00:735][569]LogSlate: Window 'Message Log' being destroyed
+[2021.11.09-14.24.00:737][569]LogSlate: Window 'Message Log' being destroyed
+[2021.11.09-14.24.04:051][962]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/Tunnel/sewer_tunnel_1.sewer_tunnel_1
+[2021.11.09-14.24.16:483][283]LogSlate: Window 'sewer_tunnel_1' being destroyed
+[2021.11.09-14.24.22:275][965]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.11.09-14.24.22:275][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-14.24.24:063][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Tunnel/sewer_tunnel_1" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/sewer_tunnel_1.uasset" SILENT=true
+[2021.11.09-14.24.24:128][153]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/sewer_tunnel_1EA21F52848A1AF043B3A88852384FCEA.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/sewer_tunnel_1.uasset'
+[2021.11.09-14.24.24:140][153]AssetCheck: New page: Asset Save: sewer_tunnel_1
+[2021.11.09-14.24.24:140][153]LogContentValidation: Display: Validating StaticMesh /Game/Models/Tunnel/sewer_tunnel_1.sewer_tunnel_1
+[2021.11.09-14.24.59:975][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Tunnel/sewer_tunnel_1" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/sewer_tunnel_1.uasset" SILENT=true
+[2021.11.09-14.25.00:040][344]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/sewer_tunnel_1BF31E6B04F6B75DFEC1CFC87BE13B097.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Models/Tunnel/sewer_tunnel_1.uasset'
+[2021.11.09-14.25.00:053][344]AssetCheck: New page: Asset Save: sewer_tunnel_1
+[2021.11.09-14.25.00:054][344]LogContentValidation: Display: Validating StaticMesh /Game/Models/Tunnel/sewer_tunnel_1.sewer_tunnel_1
