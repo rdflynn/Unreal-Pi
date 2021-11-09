@@ -1147,3 +1147,225 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.09-14.38.54:007][331]AssetCheck: New page: Asset Save: multiple assets
 [2021.11.09-14.38.54:007][331]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
 [2021.11.09-14.38.54:007][331]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2021.11.09-14.39.52:139][411]Cmd: TRANSACTION UNDO
+[2021.11.09-14.39.52:139][411]LogEditorTransaction: Undo Move Actors
+[2021.11.09-14.39.52:698][428]Cmd: TRANSACTION UNDO
+[2021.11.09-14.39.52:698][428]LogEditorTransaction: Undo Move Actors
+[2021.11.09-14.39.55:869][775]LogEditorViewport: Clicking on Actor (LMB): PipeSpline_C (PipeSpline)
+[2021.11.09-14.40.06:325][  3]LogEditorViewport: Clicking on Actor (LMB): Rat_C (Rat)
+[2021.11.09-14.40.10:480][483]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.09-14.40.10:499][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.09-14.40.10:499][483]PIE: New page: PIE session: Level1 (9 Nov 2021, 14:40:10)
+[2021.11.09-14.40.10:531][483]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2021.11.09-14.40.10:533][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002292s)
+[2021.11.09-14.40.10:533][483]LogAIModule: Creating AISystem for world Level1
+[2021.11.09-14.40.10:534][483]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2021.11.09-14.40.10:534][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003385s)
+[2021.11.09-14.40.10:564][483]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.11.09-14.40.10:573][483]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.11.09-14.40.10:573][483]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.09-14.40.10:573][483]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.09-14.40.10:573][483]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.09-14.40.10:573][483]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.09-14.40.10:573][483]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.09-14.40.10:573][483]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.09-14.40.10:573][483]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.09-14.40.10:573][483]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.09-14.40.10:573][483]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.11.09-14.40.10:573][483]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.11.09-14.40.10:573][483]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.09-14.40.10:573][483]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.09-14.40.10:575][483]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.09-14.40.10:575][483]LogAudioMixer: Display: 1: FrontRight
+[2021.11.09-14.40.10:578][483]LogAudioMixer: Display: Using Audio Device Headphones (Oculus Virtual Audio Device)
+[2021.11.09-14.40.10:579][483]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.09-14.40.10:579][483]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.09-14.40.10:579][483]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.09-14.40.10:579][483]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.09-14.40.10:579][483]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.09-14.40.10:579][483]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.09-14.40.10:580][483]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.09-14.40.10:580][483]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.09-14.40.10:580][483]LogInit: FAudioDevice initialized.
+[2021.11.09-14.40.10:580][483]LogAudio: Display: Audio Device (ID: 4) registered with world 'Level1'.
+[2021.11.09-14.40.10:587][483]LogLoad: Game class is 'GameModeBase'
+[2021.11.09-14.40.10:587][483]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2021.11.09-14.40.10
+[2021.11.09-14.40.10:587][483]LogWorld: Bringing up level for play took: 0.000621
+[2021.11.09-14.40.10:587][483]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.11.09-14.40.10:589][483]PIE: Server logged in
+[2021.11.09-14.40.10:589][483]PIE: Play in editor total start time 0.091 seconds.
+[2021.11.09-14.40.12:791][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.09-14.40.12:791][740]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2021.11.09-14.40.12:792][740]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2021.11.09-14.40.12:792][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-14.40.12:803][740]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.09-14.40.12:816][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-14.40.12:842][740]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.09-14.40.12:842][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.09-14.40.12:843][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.09-14.40.12:844][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.09-14.40.12:847][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.11.09-14.40.12:884][741]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.11.09-14.42.52:055][206]BlueprintLog: New page: Compile PipeSpline
+[2021.11.09-14.42.52:151][206]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2021.11.09-14.43.02:330][467]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.09-14.43.02:352][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.09-14.43.02:352][467]PIE: New page: PIE session: Level1 (9 Nov 2021, 14:43:02)
+[2021.11.09-14.43.02:352][467]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2021.11.09-14.43.02:356][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002996s)
+[2021.11.09-14.43.02:357][467]LogAIModule: Creating AISystem for world Level1
+[2021.11.09-14.43.02:357][467]LogPlayLevel: PIE: World Init took: (0.001572s)
+[2021.11.09-14.43.02:357][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004652s)
+[2021.11.09-14.43.02:387][467]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2021.11.09-14.43.02:388][467]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.11.09-14.43.02:388][467]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.09-14.43.02:388][467]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.09-14.43.02:388][467]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.09-14.43.02:388][467]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.09-14.43.02:388][467]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.09-14.43.02:388][467]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.09-14.43.02:388][467]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.09-14.43.02:388][467]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.09-14.43.02:389][467]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.11.09-14.43.02:389][467]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.11.09-14.43.02:389][467]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.09-14.43.02:389][467]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.09-14.43.02:390][467]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.09-14.43.02:390][467]LogAudioMixer: Display: 1: FrontRight
+[2021.11.09-14.43.02:393][467]LogAudioMixer: Display: Using Audio Device Headphones (Oculus Virtual Audio Device)
+[2021.11.09-14.43.02:394][467]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.09-14.43.02:394][467]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.09-14.43.02:394][467]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.09-14.43.02:394][467]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.09-14.43.02:394][467]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.09-14.43.02:394][467]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.09-14.43.02:394][467]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.09-14.43.02:396][467]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.09-14.43.02:396][467]LogInit: FAudioDevice initialized.
+[2021.11.09-14.43.02:396][467]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level1'.
+[2021.11.09-14.43.02:402][467]LogLoad: Game class is 'GameModeBase'
+[2021.11.09-14.43.02:403][467]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2021.11.09-14.43.02
+[2021.11.09-14.43.02:403][467]LogWorld: Bringing up level for play took: 0.000670
+[2021.11.09-14.43.02:403][467]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.11.09-14.43.02:404][467]PIE: Server logged in
+[2021.11.09-14.43.02:405][467]PIE: Play in editor total start time 0.057 seconds.
+[2021.11.09-14.43.07:861][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.09-14.43.07:861][114]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2021.11.09-14.43.07:862][114]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2021.11.09-14.43.07:862][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-14.43.07:872][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.09-14.43.07:882][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-14.43.07:909][114]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.09-14.43.07:909][114]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.09-14.43.07:910][114]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.09-14.43.07:911][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.09-14.43.07:916][114]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.11.09-14.43.07:957][115]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.11.09-14.43.22:657][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PipeSpline" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset" SILENT=true
+[2021.11.09-14.43.22:787][842]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/PipeSpline57F013AE4289A4B51317089C3B452A1B.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset'
+[2021.11.09-14.43.22:805][842]AssetCheck: New page: Asset Save: PipeSpline
+[2021.11.09-14.43.22:805][842]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PipeSpline.PipeSpline
+[2021.11.09-14.43.37:741][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PipeSpline" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset" SILENT=true
+[2021.11.09-14.43.37:871][583]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/PipeSpline57DC7791481C3E3F6DDDECAB2245B04D.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset'
+[2021.11.09-14.43.37:885][583]AssetCheck: New page: Asset Save: PipeSpline
+[2021.11.09-14.43.37:885][583]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PipeSpline.PipeSpline
+[2021.11.09-14.43.47:029][621]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.09-14.43.57:532][845]LogEditorViewport: Clicking on Actor (LMB): Rat_C (Rat)
+[2021.11.09-14.43.59:310][ 55]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.09-14.44.03:155][495]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.09-14.44.04:259][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.09-14.44.04:289][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2021.11.09-14.44.04:718][608]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level1092A63C14B253204907E3097230893CD.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1.umap'
+[2021.11.09-14.44.04:750][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2021.11.09-14.44.04:992][608]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level1_BuiltData361F254B467AF9864D93879A47AD380C.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1_BuiltData.uasset'
+[2021.11.09-14.44.05:009][608]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.09-14.44.05:009][608]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2021.11.09-14.44.05:009][608]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2021.11.09-14.45.52:280][488]LogSlate: Took 0.005821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.11.09-14.46.01:773][600]BlueprintLog: New page: Compile PipeSpline
+[2021.11.09-14.46.01:826][600]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2021.11.09-14.46.05:540][ 32]BlueprintLog: New page: Compile PipeSpline
+[2021.11.09-14.46.05:590][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2021.11.09-14.46.05:976][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PipeSpline" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset" SILENT=true
+[2021.11.09-14.46.06:122][ 73]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/PipeSplineCAC4A22F448ABF57A2CF91A410A5BF13.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset'
+[2021.11.09-14.46.06:137][ 73]AssetCheck: New page: Asset Save: PipeSpline
+[2021.11.09-14.46.06:137][ 73]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PipeSpline.PipeSpline
+[2021.11.09-14.50.43:932][550]BlueprintLog: New page: Compile PipeSpline
+[2021.11.09-14.50.44:038][550]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2021.11.09-14.51.39:477][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PipeSpline" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset" SILENT=true
+[2021.11.09-14.51.39:649][794]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/PipeSpline877290EB4BC8B3F9ED7B33B41351EB24.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset'
+[2021.11.09-14.51.39:667][794]AssetCheck: New page: Asset Save: PipeSpline
+[2021.11.09-14.51.39:667][794]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PipeSpline.PipeSpline
+[2021.11.09-14.51.48:518][817]Cmd: DELETE
+[2021.11.09-14.51.48:518][817]Cmd: ACTOR DELETE
+[2021.11.09-14.51.48:519][817]LogEditorActor: Deleted Actor: PipeSpline_C
+[2021.11.09-14.51.48:549][817]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2021.11.09-14.51.48:554][817]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2021.11.09-14.52.29:413][956]Cmd: DELETE
+[2021.11.09-14.52.29:413][956]Cmd: ACTOR DELETE
+[2021.11.09-14.52.29:419][956]LogEditorActor: Deleted Actor: PipeSpline_C
+[2021.11.09-14.52.29:456][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.11.09-14.52.29:471][956]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2021.11.09-14.54.04:059][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.11.09-14.54.04:307][234]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level1_Auto2526625D3461FE4F30046A6AD1AD54781.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Autosaves/Game/Levels/Level1_Auto2.umap'
+[2021.11.09-14.54.04:316][234]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level1' took 0.284
+[2021.11.09-14.54.04:316][234]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.284
+[2021.11.09-14.56.18:640][597]BlueprintLog: New page: Compile PipeSpline
+[2021.11.09-14.56.18:692][597]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.11.09-14.56.19:160][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PipeSpline" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset" SILENT=true
+[2021.11.09-14.56.19:346][645]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/PipeSpline18C849F74F602B969A79BE82D7E38E21.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset'
+[2021.11.09-14.56.19:363][645]AssetCheck: New page: Asset Save: PipeSpline
+[2021.11.09-14.56.19:363][645]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PipeSpline.PipeSpline
+[2021.11.09-14.56.47:411][706]Cmd: DELETE
+[2021.11.09-14.56.47:411][706]Cmd: ACTOR DELETE
+[2021.11.09-14.56.47:416][706]LogEditorActor: Deleted Actor: PipeSpline_C
+[2021.11.09-14.56.47:452][706]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2021.11.09-14.56.47:462][706]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2021.11.09-14.56.54:916][575]BlueprintLog: New page: Compile PipeSpline
+[2021.11.09-14.56.54:965][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.11.09-14.56.55:478][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PipeSpline" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset" SILENT=true
+[2021.11.09-14.56.55:659][629]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/PipeSpline5F65FDD649646560B0CA8CA483F22E9D.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Blueprints/PipeSpline.uasset'
+[2021.11.09-14.56.55:676][629]AssetCheck: New page: Asset Save: PipeSpline
+[2021.11.09-14.56.55:676][629]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PipeSpline.PipeSpline
+[2021.11.09-14.57.27:541][216]Cmd: TRANSACTION UNDO
+[2021.11.09-14.57.27:541][216]LogEditorTransaction: Undo Move Actors
+[2021.11.09-14.57.34:940][836]Cmd: TRANSACTION UNDO
+[2021.11.09-14.57.34:940][836]LogEditorTransaction: Undo Move Actors
+[2021.11.09-14.57.35:362][846]Cmd: TRANSACTION UNDO
+[2021.11.09-14.57.35:362][846]LogEditorTransaction: Undo Move Actors
+[2021.11.09-14.57.35:898][895]Cmd: TRANSACTION UNDO
+[2021.11.09-14.57.35:898][895]LogEditorTransaction: Undo Select Spline Point
+[2021.11.09-14.57.44:126][720]Cmd: TRANSACTION UNDO
+[2021.11.09-14.57.44:126][720]LogEditorTransaction: Undo Rotate Actors
+[2021.11.09-14.57.44:694][740]Cmd: TRANSACTION UNDO
+[2021.11.09-14.57.44:694][740]LogEditorTransaction: Undo Move Actors
+[2021.11.09-14.57.45:881][871]Cmd: TRANSACTION UNDO
+[2021.11.09-14.57.45:881][871]LogEditorTransaction: Undo Rotate Actors
+[2021.11.09-14.57.57:601][964]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.09-14.57.58:538][ 74]LogEditorViewport: Clicking on Actor (LMB): PipeSpline_C (PipeSpline)
+[2021.11.09-14.58.05:612][833]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.09-14.59.20:031][958]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.09-14.59.26:530][722]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.09-14.59.38:445][109]Cmd: DELETE
+[2021.11.09-14.59.38:445][109]Cmd: ACTOR DELETE
+[2021.11.09-14.59.38:485][109]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.09-14.59.38:561][109]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.11.09-14.59.38:668][109]LogEditorActor: Deleted 1 Actors (0.223 secs)
+[2021.11.09-14.59.39:812][243]Cmd: DELETE
+[2021.11.09-14.59.39:812][243]Cmd: ACTOR DELETE
+[2021.11.09-14.59.39:816][243]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.09-14.59.39:842][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2021.11.09-14.59.39:844][243]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2021.11.09-14.59.40:818][357]Cmd: DELETE
+[2021.11.09-14.59.40:818][357]Cmd: ACTOR DELETE
+[2021.11.09-14.59.40:821][357]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.09-14.59.40:848][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.11.09-14.59.40:850][357]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2021.11.09-14.59.49:761][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.09-14.59.49:788][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.11.09-14.59.50:284][416]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level19C39B27F4E8942C02DE20899B1222DE0.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1.umap'
+[2021.11.09-14.59.50:319][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2021.11.09-14.59.50:564][416]LogSavePackage: Moving 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Saved/Level1_BuiltDataD7D931ED4729DAF74D85188E4E0C5EDA.tmp' to 'L:/Uni/1288 - Advanced Games Design and Development/Unreal-Pi/PiGame/Content/Levels/Level1_BuiltData.uasset'
+[2021.11.09-14.59.50:582][416]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.09-14.59.50:582][416]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2021.11.09-14.59.50:582][416]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
